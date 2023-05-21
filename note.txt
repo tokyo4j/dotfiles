@@ -1,0 +1,2 @@
+To set default browser:
+bash -c "unset BROWSER;xdg-settings set default-web-browser firefoxdeveloperedition.desktop.desktop"
