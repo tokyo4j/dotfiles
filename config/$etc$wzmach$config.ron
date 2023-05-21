@@ -12,9 +12,9 @@
         repeated: false,
       ),
       action: UinputAction (
-        modifiers: ["RightControl"],
+        modifiers: ["LeftControl"],
         sequence: ["T"],
-      )
+      ),
     ),
     (
       trigger: Swipe (
@@ -23,9 +23,9 @@
         repeated: false,
       ),
       action: UinputAction (
-        modifiers: ["RightControl"],
+        modifiers: ["LeftControl"],
         sequence: ["W"],
-      )
+      ),
     ),
     (
       trigger: Swipe (
@@ -34,9 +34,9 @@
         repeated: false,
       ),
       action: UinputAction (
-        modifiers: ["RightControl"],
-        sequence: ["PageUp"],
-      )
+        modifiers: ["LeftAlt"],
+        sequence: ["Right"],
+      ),
     ),
     (
       trigger: Swipe (
@@ -45,9 +45,9 @@
         repeated: false,
       ),
       action: UinputAction (
-        modifiers: ["RightControl"],
-        sequence: ["PageDown"],
-      )
+        modifiers: ["LeftAlt"],
+        sequence: ["Left"],
+      ),
     ),
     (
       trigger: Swipe (
@@ -58,7 +58,19 @@
       action: UinputAction (
         modifiers: ["LeftAlt"],
         sequence: ["F4"],
-      )
+      ),
+    ),
+    // Fullscreen for Hyprland
+    (
+      trigger: Swipe (
+        fingers: 4,
+        direction: Up,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["LeftMeta"],
+        sequence: ["W"],
+      ),
     ),
   ],
 )
