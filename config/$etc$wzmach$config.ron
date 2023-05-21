@@ -1,0 +1,64 @@
+(
+  swipe_distance: 100,
+  shear_distance: 100,
+  pinch_distance: 1.4,
+  rotation_distance: 60,
+
+  global_triggers: [
+    (
+      trigger: Swipe (
+        fingers: 3,
+        direction: Up,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["RightControl"],
+        sequence: ["T"],
+      )
+    ),
+    (
+      trigger: Swipe (
+        fingers: 3,
+        direction: Down,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["RightControl"],
+        sequence: ["W"],
+      )
+    ),
+    (
+      trigger: Swipe (
+        fingers: 3,
+        direction: Left,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["RightControl"],
+        sequence: ["PageUp"],
+      )
+    ),
+    (
+      trigger: Swipe (
+        fingers: 3,
+        direction: Right,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["RightControl"],
+        sequence: ["PageDown"],
+      )
+    ),
+    (
+      trigger: Swipe (
+        fingers: 4,
+        direction: Down,
+        repeated: false,
+      ),
+      action: UinputAction (
+        modifiers: ["LeftAlt"],
+        sequence: ["F4"],
+      )
+    ),
+  ],
+)

@@ -1,0 +1,67 @@
+* {
+  font-family: Noto Sans CJK JP, Arial, FontAwesome, sans-serif;
+  font-size: 16px;
+}
+
+#clock {
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+}
+
+#workspaces button.active {
+  background-color: #64727d;
+}
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#tray {
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 4px 0;
+  color: #ffffff;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+}
+
+#clock {
+  background-color: #64727d;
+}
+
+#battery {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #ffffff;
+  background-color: #26a65b;
+}
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+}
+
+#network {
+  background-color: #2980b9;
+}
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#pulseaudio {
+  background-color: #f1c40f;
+  color: #000000;
+}
+#pulseaudio.muted {
+  background-color: #90b1b1;
+  color: #2a5c45;
+}
+
+#tray {
+  background-color: #2980b9;
+}

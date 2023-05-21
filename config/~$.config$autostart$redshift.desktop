@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Redshift
+GenericName=Color temperature adjustment
+Comment=Color temperature adjustment tool
+Exec=redshift -P -O 3300 -b 0.8
+Icon=redshift
+Terminal=true
+Type=Application
+Categories=Utility;
+NoDisplay=true

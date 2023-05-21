@@ -1,0 +1,59 @@
+{
+  "window.titleBarStyle": "custom",
+  "editor.formatOnSave": true,
+  "explorer.sortOrder": "type",
+  "editor.detectIndentation": false,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "workbench.colorTheme": "Monokai",
+  "editor.inlayHints.enabled": "off",
+  "editor.tabSize": 2,
+  "npm.packageManager": "pnpm",
+  "editor.fastScrollSensitivity": 5,
+  "terminal.integrated.cursorBlinking": true,
+  "editor.fontFamily": "monospace, 'Font Awesome 6 Brands Regular', 'Font Awesome 6 Free Solid', 'Font Awesome 6 Free Regular'",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "svelte.enable-ts-plugin": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.formatOnType": true
+  },
+  "[java]": {
+    "editor.tabSize": 4
+  },
+  "remote.SSH.remotePlatform": {
+    "pi": "linux"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "min",
+  "editor.inlineSuggest.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

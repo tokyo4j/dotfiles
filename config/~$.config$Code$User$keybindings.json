@@ -1,0 +1,138 @@
+[
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "meta+left",
+    "command": "cursorMove",
+    "when": "canNavigateBack",
+    "args": {
+      "to": "wrappedLineStart"
+    }
+  },
+  {
+    "key": "meta+right",
+    "command": "cursorMove",
+    "when": "canNavigateBack",
+    "args": {
+      "to": "wrappedLineEnd"
+    }
+  },
+  {
+    "key": "meta+shift+left",
+    "command": "cursorMove",
+    "when": "canNavigateBack",
+    "args": {
+      "to": "wrappedLineStart",
+      "select": true
+    }
+  },
+  {
+    "key": "meta+shift+right",
+    "command": "cursorMove",
+    "when": "canNavigateBack",
+    "args": {
+      "to": "wrappedLineEnd",
+      "select": true
+    }
+  },
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 5
+    }
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 5
+    }
+  },
+  {
+    "key": "shift+ctrl+up",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "up",
+      "by": "line",
+      "value": 5,
+      "select": true
+    }
+  },
+  {
+    "key": "shift+ctrl+down",
+    "command": "cursorMove",
+    "when": "editorTextFocus",
+    "args": {
+      "to": "down",
+      "by": "line",
+      "value": 5,
+      "select": true
+    }
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.focusPanel",
+    "when": "!panelFocus"
+  },
+  {
+    "key": "meta+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "meta+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "cursorWordPartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "cursorWordPartRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+ctrl+left",
+    "command": "cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+ctrl+right",
+    "command": "cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  }
+]

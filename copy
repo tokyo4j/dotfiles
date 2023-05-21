@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+import shutil, os
+
+files = open("./files.txt", "r", encoding="utf-8").read().split("\n")
+
+for f in files:
+    name = "./config/" + f.replace("/", "$")
+    f = os.path.expanduser(f)
+    if not os.path.exists(f):
+        continue
+    shutil.copy(f, name)
