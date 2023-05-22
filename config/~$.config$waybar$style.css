@@ -8,6 +8,14 @@
   font-size: 27px;
 }
 
+window#waybar {
+  background-color: rgba(43, 48, 59, 0.5);
+  border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
 #workspaces button.active {
   background-color: #64727d;
 }
@@ -16,6 +24,7 @@
 #battery,
 #network,
 #pulseaudio,
+#workspaces button,
 #tray {
   padding: 0 10px;
   border-radius: 10px;
@@ -63,5 +72,5 @@
 }
 
 #tray {
-  background-color: #2980b9;
+  background-color: #ffffff;
 }
