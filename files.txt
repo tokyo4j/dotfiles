@@ -18,3 +18,4 @@
 ~/.config/hypr/moon.conf
 /etc/wzmach/config.ron
 ~/.profile
+/etc/greetd/config.toml
