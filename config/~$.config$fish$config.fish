@@ -1,7 +1,7 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
     alias c="clear"
     alias co="exec code"
+    alias code="code-insiders"
     set fish_greeting
     set EDITOR vim
 end

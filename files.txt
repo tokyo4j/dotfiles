@@ -10,11 +10,9 @@
 ~/.xprofile
 ~/.config/fontconfig/conf.d/99-jpanese-fonts.conf
 ~/.config/gdb/gdbinit
-~/.local/share/fonts/msgothic.ttc
 ~/.config/waybar/config.jsonc
 ~/.config/waybar/style.css
 ~/.config/hypr/hyprland.conf
 ~/.config/hypr/hyprpaper.conf
-~/.config/hypr/moon.conf
 /etc/wzmach/config.ron
 ~/.profile
