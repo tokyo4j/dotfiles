@@ -35,8 +35,7 @@
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.tabSize": 4,
-    "editor.formatOnType": true
+    "editor.tabSize": 4
   },
   "[java]": {
     "editor.tabSize": 4

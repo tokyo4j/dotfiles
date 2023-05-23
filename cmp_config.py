@@ -17,7 +17,7 @@ for f in files:
         continue
 
     subprocess.call(
-        ["code", "--wait", "-d", src, dst],
+        ["code", "-d", src, dst],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
