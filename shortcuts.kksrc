@@ -1,5 +1,6 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-36555267-c098-41c0-a984-5e772f17309c=
+switch-to-activity-4b741517-ebbc-4718-b66f-a64d8103bda7=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch keyboard layout to English (US)=
@@ -20,7 +21,7 @@ Clear=
 Close=
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=
+Copy=; Ctrl+C
 CreateFolder=
 Cut=
 DeleteFile=
@@ -55,7 +56,7 @@ Next=
 NextCompletion=
 Open=
 OpenRecent=
-Paste=
+Paste=; Ctrl+V
 Paste Selection=
 Preferences=
 PrevCompletion=
@@ -63,7 +64,7 @@ Print=
 PrintPreview=
 Prior=
 Quit=
-Redo=
+Redo=; Ctrl+Shift+Z
 Reload=
 RenameFile=
 Replace=
@@ -84,7 +85,7 @@ SubstringCompletion=
 SwitchApplicationLanguage=
 TextCompletion=
 TipofDay=
-Undo=
+Undo=Ctrl+Z;\s
 Up=
 WhatsThis=
 Zoom=
@@ -106,7 +107,7 @@ display=
 [ksmserver][Global Shortcuts]
 Halt Without Confirmation=
 Lock Session=
-Log Out=Meta+P
+Log Out=
 Log Out Without Confirmation=
 Reboot Without Confirmation=
 
