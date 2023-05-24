@@ -1,5 +1,4 @@
 {
-  "window.titleBarStyle": "native",
   "editor.formatOnSave": true,
   "explorer.sortOrder": "type",
   "editor.detectIndentation": false,
