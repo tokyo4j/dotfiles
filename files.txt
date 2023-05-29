@@ -18,3 +18,4 @@
 ~/.profile
 /etc/greetd/config.toml
 ~/.config/kwalletrc
+~/.config/kglobalshortcutsrc
