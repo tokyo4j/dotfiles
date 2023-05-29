@@ -13,11 +13,13 @@ window#waybar {
   color: #ffffff;
 }
 
-#clock,
-#battery,
-#network,
-#pulseaudio,
 #workspaces button,
+#custom-firefox,
+#custom-thunar,
+#pulseaudio,
+#network,
+#battery,
+#clock,
 #tray {
   padding: 0 10px;
   border-radius: 10px;
@@ -32,29 +34,11 @@ window#waybar {
   background-color: #929292;
 }
 
-#clock {
-  background-color: #64727d;
+#custom-firefox {
+  background-color: #de5732;
 }
-
-#battery {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-#battery.charging,
-#battery.plugged {
-  color: #ffffff;
-  background-color: #26a65b;
-}
-#battery.critical:not(.charging) {
-  background-color: #f53c3c;
-}
-
-#network {
-  background-color: #2980b9;
-}
-#network.disconnected {
-  background-color: #f53c3c;
+#custom-thunar {
+  background-color: #268fbc;
 }
 
 #pulseaudio {
@@ -64,6 +48,30 @@ window#waybar {
 #pulseaudio.muted {
   background-color: #90b1b1;
   color: #2a5c45;
+}
+
+#network {
+  background-color: #2980b9;
+}
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#battery {
+  background-color: #ffffff;
+  color: #000000;
+}
+#battery.charging,
+#battery.plugged {
+  color: #ffffff;
+  background-color: #26a65b;
+}
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+}
+
+#clock {
+  background-color: #64727d;
 }
 
 #tray {

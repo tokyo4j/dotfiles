@@ -3,50 +3,24 @@
   "position": "top",
   "height": 30,
   "spacing": 4,
-  "modules-left": ["wlr/workspaces"],
+  "modules-left": ["wlr/workspaces", "custom/firefox", "custom/thunar"],
   "modules-center": ["hyprland/window"],
   "modules-right": ["pulseaudio", "network", "battery", "clock", "tray"],
   "wlr/workspaces": {
     "on-click": "activate"
   },
+  "custom/firefox": {
+    "format": "  ",
+    "on-click": "firefox-developer-edition"
+  },
+  "custom/thunar": {
+    "format": "  ",
+    "on-click": "thunar"
+  },
   "hyprland/window": {
     "separate-outputs": true
   },
-  "tray": {
-    "icon-size": 24,
-    "spacing": 10
-  },
-  "clock": {
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}",
-    "format": "{:%H:%M}"
-  },
-  "battery": {
-    "states": {
-      // "good": 95,
-      "warning": 30,
-      "critical": 15
-    },
-    "format": "{capacity}% {icon} ",
-    "format-charging": "{capacity}% ",
-    "format-plugged": "{capacity}% ",
-    // "format-alt": "{time} {icon}",
-    // "format-good": "", // An empty format will hide the module
-    // "format-full": "",
-    "format-icons": ["", "", "", "", ""]
-  },
-  "network": {
-    // "interface": "wlp2*", // (Optional) To force the use of this interface
-    "format-wifi": "{essid} ({signalStrength}%)  ",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    // "format-alt": "{ifname}: {ipaddr}/{cidr}",
-    "on-click": "xfce4-terminal -x sh -c 'sleep 0.5 && nmtui'"
-  },
   "pulseaudio": {
-    // "scroll-step": 1, // %, can be a float
     "format": "{volume}% {icon}  {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
@@ -63,5 +37,33 @@
       "default": ["", "", ""]
     },
     "on-click": "pavucontrol"
+  },
+  "network": {
+    "format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected ⚠",
+    "on-click": "xfce4-terminal -x sh -c 'sleep 0.5 && nmtui'"
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon} ",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}",
+    "format": "{:%H:%M}"
+  },
+  "tray": {
+    "icon-size": 24,
+    "spacing": 10
   }
 }
