@@ -8,7 +8,7 @@
 ~/.config/code-flags.conf
 ~/.config/touchegg/touchegg.conf
 ~/.xprofile
-~/.config/fontconfig/conf.d/99-jpanese-fonts.conf
+~/.config/fontconfig/conf.d/99-japanese-fonts.conf
 ~/.config/gdb/gdbinit
 ~/.config/waybar/config.jsonc
 ~/.config/waybar/style.css
@@ -19,3 +19,4 @@
 /etc/greetd/config.toml
 ~/.config/kwalletrc
 ~/.config/kglobalshortcutsrc
+/efi/limine/limine.cfg

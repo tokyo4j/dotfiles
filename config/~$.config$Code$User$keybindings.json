@@ -14,7 +14,7 @@
     "command": "cursorMove",
     "when": "canNavigateBack",
     "args": {
-      "to": "wrappedLineStart"
+      "to": "wrappedLineFirstNonWhitespaceCharacter"
     }
   },
   {
