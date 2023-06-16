@@ -1,5 +1,5 @@
 To set default browser:
-bash -c "unset BROWSER;xdg-settings set default-web-browser firefoxdeveloperedition.desktop.desktop"
+bash -c "unset BROWSER;xdg-settings set default-web-browser firefoxdeveloperedition.desktop"
 
 To restart waybar:
 pgrep waybar | xargs kill; hyprctl dispatch exec waybar
