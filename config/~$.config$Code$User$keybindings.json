@@ -114,25 +114,5 @@
     "key": "ctrl+enter",
     "command": "-github.copilot.generate",
     "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
-  },
-  {
-    "key": "ctrl+left",
-    "command": "cursorWordPartLeft",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+right",
-    "command": "cursorWordPartRight",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "shift+ctrl+left",
-    "command": "cursorWordPartLeftSelect",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "shift+ctrl+right",
-    "command": "cursorWordPartRightSelect",
-    "when": "textInputFocus"
   }
 ]
