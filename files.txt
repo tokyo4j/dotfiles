@@ -6,7 +6,6 @@
 ~/.config/Code/User/keybindings.json
 ~/.config/fish/config.fish
 ~/.config/code-flags.conf
-~/.config/touchegg/touchegg.conf
 ~/.xprofile
 ~/.config/fontconfig/conf.d/99-japanese-fonts.conf
 ~/.config/gdb/gdbinit
