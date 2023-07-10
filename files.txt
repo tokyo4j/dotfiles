@@ -19,3 +19,4 @@
 ~/.config/kwalletrc
 ~/.config/kglobalshortcutsrc
 /efi/limine/limine.cfg
+/etc/rydeen/config.yml

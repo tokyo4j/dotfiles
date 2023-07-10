@@ -1,0 +1,86 @@
+keyboard:
+  layout: jp
+
+thresholds:
+  swipe: 50
+  pinch: 0.2
+
+modifiers:
+  VIM:
+    keys: [Muhenkan]
+    sends: false
+  S:
+    keys: [Shift_L, Shift_R]
+
+mappings:
+  - key: Eisu_toggle
+    do: [+Super_L]
+
+  - key: Next
+    do: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
+
+  - key: Prior
+    do: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
+
+  - key: h
+    modifiers: [VIM]
+    do: [+Left]
+
+  - key: j
+    modifiers: [VIM]
+    do: [+Down]
+
+  - key: k
+    modifiers: [VIM]
+    do: [+Up]
+
+  - key: l
+    modifiers: [VIM]
+    do: [+Right]
+
+  - key: i
+    modifiers: [VIM]
+    do: [+Zenkaku_Hankaku]
+
+  - key: o
+    modifiers: [VIM]
+    do: [+Muhenkan]
+
+  - gesture: swipe
+    fingers: 3
+    direction: up
+    do: [+Super_L, Tab]
+
+  - gesture: swipe
+    fingers: 3
+    direction: down
+    do: [+Control_L, w]
+
+  - gesture: swipe
+    fingers: 3
+    direction: right
+    do: [+Alt_L, Left]
+
+  - gesture: swipe
+    fingers: 3
+    direction: left
+    do: [+Alt_L, Right]
+
+  - gesture: swipe
+    fingers: 4
+    direction: down
+    do: [+Alt_L, F4]
+
+  - gesture: swipe
+    fingers: 4
+    direction: left
+    repeated: true
+    do: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
+    undo: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
+
+  - gesture: swipe
+    fingers: 4
+    direction: right
+    repeated: true
+    do: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
+    undo: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
