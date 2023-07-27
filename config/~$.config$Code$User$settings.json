@@ -19,6 +19,7 @@
   "clang-format.fallbackStyle": "LLVM",
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
+  "remote.SSH.useLocalServer": false,
   "workbench.colorCustomizations": {
     "[Monokai]": {
       "editorInlayHint.foreground": "#868686f0",

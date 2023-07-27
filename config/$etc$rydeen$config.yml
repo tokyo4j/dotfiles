@@ -1,9 +1,8 @@
-keyboard:
-  layout: jp
-
-thresholds:
-  swipe: 50
-  pinch: 0.2
+general:
+  swipe_threshold: 50
+  pinch_threshold: 0.2
+  keyboard:
+    layout: jp
 
 modifiers:
   VIM:
@@ -11,6 +10,8 @@ modifiers:
     sends: false
   S:
     keys: [Shift_L, Shift_R]
+  C:
+    keys: [Control_L, Control_R]
 
 mappings:
   - key: Eisu_toggle
@@ -45,6 +46,14 @@ mappings:
   - key: o
     modifiers: [VIM]
     do: [+Muhenkan]
+
+  - key: n
+    modifiers: [VIM]
+    do: [+Home]
+
+  - key: m
+    modifiers: [VIM]
+    do: [+End]
 
   - gesture: swipe
     fingers: 3
