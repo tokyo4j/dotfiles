@@ -12,7 +12,7 @@
   {
     "key": "meta+left",
     "command": "cursorMove",
-    "when": "canNavigateBack",
+    "when": "editorTextFocus",
     "args": {
       "to": "wrappedLineFirstNonWhitespaceCharacter"
     }
@@ -20,7 +20,7 @@
   {
     "key": "meta+right",
     "command": "cursorMove",
-    "when": "canNavigateBack",
+    "when": "editorTextFocus",
     "args": {
       "to": "wrappedLineEnd"
     }
@@ -28,7 +28,7 @@
   {
     "key": "meta+shift+left",
     "command": "cursorMove",
-    "when": "canNavigateBack",
+    "when": "editorTextFocus",
     "args": {
       "to": "wrappedLineStart",
       "select": true
@@ -37,7 +37,7 @@
   {
     "key": "meta+shift+right",
     "command": "cursorMove",
-    "when": "canNavigateBack",
+    "when": "editorTextFocus",
     "args": {
       "to": "wrappedLineEnd",
       "select": true
@@ -104,15 +104,5 @@
     "key": "meta+down",
     "command": "editor.action.insertCursorBelow",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+g",
-    "command": "github.copilot.generate",
-    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
-  },
-  {
-    "key": "ctrl+enter",
-    "command": "-github.copilot.generate",
-    "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
   }
 ]

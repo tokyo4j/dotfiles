@@ -1,4 +1,5 @@
 {
+  "json.validate.enable": false,
   "editor.formatOnSave": true,
   "explorer.sortOrder": "type",
   "editor.detectIndentation": false,
@@ -19,7 +20,12 @@
   "clang-format.fallbackStyle": "LLVM",
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
+  "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
+  "cscopeCode.auto": false,
   "remote.SSH.useLocalServer": false,
+  "zig.zigPath": "/usr/bin/zig",
+  "zig.zls.path": "/usr/bin/zls",
+  "nim.nimprettyIndent": 2,
   "workbench.colorCustomizations": {
     "[Monokai]": {
       "editorInlayHint.foreground": "#868686f0",
@@ -65,6 +71,12 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[nim]": {
+    "editor.tabSize": 2
+  },
+  "[zig]": {
     "editor.tabSize": 4
   }
 }
