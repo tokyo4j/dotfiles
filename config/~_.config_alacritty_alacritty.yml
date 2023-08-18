@@ -1,0 +1,4 @@
+scrolling:
+  multiplier: 10
+shell:
+  program: fish

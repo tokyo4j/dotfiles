@@ -24,3 +24,4 @@
 ~/.config/labwc/rc.xml
 ~/.config/labwc/autostart
 ~/.config/labwc/environment
+~/.config/alacritty/alacritty.yml
