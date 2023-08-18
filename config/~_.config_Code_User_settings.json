@@ -26,6 +26,7 @@
   "zig.zls.path": "/usr/bin/zls",
   "nim.nimprettyIndent": 2,
   "sqltools.autoOpenSessionFiles": false,
+  "cscopeCode.auto": false,
   "remote.SSH.remotePlatform": {
     "ubuntu": "linux",
     "fuji": "linux"
@@ -67,7 +68,7 @@
     "editor.tabSize": 2
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
   "[python]": {
