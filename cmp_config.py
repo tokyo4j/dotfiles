@@ -3,9 +3,10 @@ import subprocess
 import filecmp
 
 files = open("./files.txt", "r", encoding="utf-8").read().split("\n")
+files = filter(lambda l: l[0] != "#", files)
 
 for f in files:
-    dst = "./config/" + f.replace("/", "$")
+    dst = "./config/" + f.replace("/", "_")
     src = os.path.expanduser(f)
 
     if not os.path.exists(src):

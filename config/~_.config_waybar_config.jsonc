@@ -3,22 +3,39 @@
   "position": "top",
   "height": 30,
   "spacing": 4,
-  "modules-left": ["wlr/workspaces", "custom/firefox", "custom/thunar"],
-  "modules-center": ["hyprland/window"],
+  "modules-left": [
+    "wlr/workspaces",
+    "custom/firefox",
+    "custom/thunar",
+    "custom/alacritty",
+    "custom/code"
+  ],
+  "modules-center": ["wlr/taskbar"],
   "modules-right": ["pulseaudio", "network", "battery", "clock", "tray"],
   "wlr/workspaces": {
+    "persistent_workspaces": {
+      "1": ["eDP-1"],
+      "3": ["eDP-1"],
+      "2": ["DP-1"],
+      "4": ["DP-1"]
+    },
     "on-click": "activate"
   },
   "custom/firefox": {
-    "format": "  ",
+    "format": " \uf269 ", // 
     "on-click": "firefox-developer-edition"
   },
   "custom/thunar": {
-    "format": "  ",
+    "format": " \uf07b ", // 
     "on-click": "thunar"
   },
-  "hyprland/window": {
-    "separate-outputs": true
+  "custom/alacritty": {
+    "format": "\uf120 ", // 
+    "on-click": "alacritty"
+  },
+  "custom/code": {
+    "format": "\uf121 ", // 
+    "on-click": "code"
   },
   "pulseaudio": {
     "format": "{volume}% {icon}  {format_source}",
@@ -44,7 +61,7 @@
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "on-click": "xfce4-terminal -x sh -c 'sleep 0.5 && nmtui'"
+    "on-click": "alacritty -e sh -c 'sleep 0.5 && nmtui'"
   },
   "battery": {
     "states": {

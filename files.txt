@@ -1,6 +1,6 @@
-~/.config/autostart/redshift.desktop
+# ~/.config/autostart/redshift.desktop
 ~/.config/chrome-flags.conf
-/etc/keyd/default.conf
+# etc/keyd/default.conf
 ~/.vimrc
 ~/.config/Code/User/settings.json
 ~/.config/Code/User/keybindings.json
@@ -11,9 +11,9 @@
 ~/.config/gdb/gdbinit
 ~/.config/waybar/config.jsonc
 ~/.config/waybar/style.css
-~/.config/hypr/hyprland.conf
-~/.config/hypr/hyprpaper.conf
-/etc/wzmach/config.ron
+# ~/.config/hypr/hyprland.conf
+# ~/.config/hypr/hyprpaper.conf
+# /etc/wzmach/config.ron
 ~/.profile
 /etc/greetd/config.toml
 ~/.config/kwalletrc

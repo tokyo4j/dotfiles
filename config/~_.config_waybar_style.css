@@ -16,6 +16,8 @@ window#waybar {
 #workspaces button,
 #custom-firefox,
 #custom-thunar,
+#custom-alacritty,
+#custom-code,
 #pulseaudio,
 #network,
 #battery,
@@ -38,7 +40,13 @@ window#waybar {
   background-color: #de5732;
 }
 #custom-thunar {
-  background-color: #268fbc;
+  background-color: #bcb726;
+}
+#custom-alacritty {
+  background-color: #2dbc26;
+}
+#custom-code {
+  background-color: #266ebc;
 }
 
 #pulseaudio {

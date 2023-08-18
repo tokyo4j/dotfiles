@@ -3,6 +3,8 @@ _k_friendly_name=Activity Manager
 switch-to-activity-4b741517-ebbc-4718-b66f-a64d8103bda7=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
+Switch keyboard layout to Japanese=none,none,Switch keyboard layout to Japanese
 Switch to Next Keyboard Layout=none,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
@@ -198,11 +200,11 @@ view_zoom_out=none,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
 nextmedia=none,Media Next,Media playback next
 pausemedia=none,Media Pause,Pause media playback
-playmedia=none,,Play media playback
+playmedia=none,none,Play media playback
 playpausemedia=none,Media Play,Play/Pause media playback
 previousmedia=none,Media Previous,Media playback previous
 stopmedia=none,Media Stop,Stop media playback
@@ -261,8 +263,8 @@ cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
-next activity=none,none,Walk through activities
-previous activity=none,none,Walk through activities (Reverse)
+next activity=none,Meta+Tab,Walk through activities
+previous activity=none,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=none,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
