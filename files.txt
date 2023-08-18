@@ -20,3 +20,7 @@
 ~/.config/kglobalshortcutsrc
 /efi/limine/limine.cfg
 /etc/rydeen/config.yml
+~/.clang-format
+~/.config/labwc/rc.xml
+~/.config/labwc/autostart
+~/.config/labwc/environment
