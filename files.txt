@@ -25,3 +25,4 @@
 ~/.config/labwc/autostart
 ~/.config/labwc/environment
 ~/.config/alacritty/alacritty.yml
+/usr/share/libalpm/hooks/linux.hook

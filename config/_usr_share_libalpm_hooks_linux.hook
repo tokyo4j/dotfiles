@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = linux
+
+[Action]
+Description = Copy kernel, ucode & initramdisk
+When = PostTransaction
+Exec = /usr/bin/sh -c "/usr/bin/cp /boot/* /efi/limine/linux/"
