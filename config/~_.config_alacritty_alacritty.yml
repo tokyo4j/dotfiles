@@ -1,5 +1,8 @@
 scrolling:
   multiplier: 10
+cursor:
+  style:
+    shape: beam
 shell:
   program: fish
 key_bindings:
