@@ -2,3 +2,6 @@ scrolling:
   multiplier: 10
 shell:
   program: fish
+key_bindings:
+  - { key: Equals, mods: Control|Shift, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
