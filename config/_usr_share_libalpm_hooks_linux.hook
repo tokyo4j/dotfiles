@@ -7,4 +7,4 @@ Target = linux
 [Action]
 Description = Copy kernel, ucode & initramdisk
 When = PostTransaction
-Exec = /usr/bin/sh -c "/usr/bin/cp /boot/* /efi/limine/linux/"
+Exec = /usr/bin/sh -c "/usr/bin/cp -r /boot/* /efi/limine/linux/"
