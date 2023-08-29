@@ -3,3 +3,6 @@ bash -c "unset BROWSER;xdg-settings set default-web-browser firefoxdeveloperedit
 
 To restart waybar:
 pgrep waybar | xargs kill; hyprctl dispatch exec waybar
+
+To download musescore scores
+[...document.querySelectorAll("img[alt]")].filter(e => e.alt.match(/ – \d of \d pages/)).map(e => e.src)
