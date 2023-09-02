@@ -28,6 +28,7 @@
   "hediet.vscode-drawio.theme": "min",
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
+	"C_Cpp.autoAddFileAssociations": false,
   "cscopeCode.auto": false,
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "zig.zigPath": "/usr/bin/zig",

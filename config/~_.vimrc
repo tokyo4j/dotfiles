@@ -1,13 +1,5 @@
-call plug#begin()
-Plug 'preservim/nerdtree'
-Plug 'preservim/tagbar'
-Plug 'ryanoasis/vim-devicons'
-Plug 'vim-airline/vim-airline'
-Plug 'tokyo4j/sonokai'
-call plug#end()
-
 set t_Co=256
-colorscheme sonokai
+colorscheme slate
 
 set nocompatible
 syntax enable
@@ -22,7 +14,6 @@ set ve+=onemore
 
 set hlsearch
 set incsearch
-" set ignorecase
 set smartcase
 
 set autoindent
@@ -41,20 +32,10 @@ endif
 
 let mapleader=" "
 nnoremap <SPACE> <Nop>
-nnoremap <C-d> <C-d>zz
-nnoremap <C-u> <C-u>zz
-vnoremap <S-h> ^
-vnoremap <S-l> $
-vnoremap <C-h> ge
-vnoremap <C-l> e
-nnoremap <S-h> ^
-nnoremap <S-l> $
-nnoremap <C-h> ge
-nnoremap <C-l> e
+nnoremap <C-Left> b
+nnoremap <C-Right> e<Right>
 nnoremap <Leader>h :tabp<CR>
 nnoremap <Leader>l :tabn<CR>
-nnoremap <Leader>j :NERDTreeToggle<CR>
-nnoremap <Leader>k :TagbarToggle<CR>
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>e :wq<CR>
 nnoremap <Leader>q :q<CR>
