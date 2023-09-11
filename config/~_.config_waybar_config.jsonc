@@ -37,6 +37,14 @@
     "format": "\uf121 ", // 
     "on-click": "code"
   },
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "icon-size": 32,
+    "icon-theme": "Obsidian",
+    "on-click-right": "minimize"
+  },
   "pulseaudio": {
     "format": "{volume}% {icon}  {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",

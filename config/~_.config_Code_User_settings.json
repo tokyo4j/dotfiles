@@ -28,7 +28,7 @@
   "hediet.vscode-drawio.theme": "min",
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
-	"C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.autoAddFileAssociations": false,
   "cscopeCode.auto": false,
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "zig.zigPath": "/usr/bin/zig",
@@ -40,9 +40,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
@@ -73,5 +75,9 @@
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "off"
   }
 }
