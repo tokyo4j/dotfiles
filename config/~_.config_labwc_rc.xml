@@ -1,165 +1,168 @@
-<?xml version="1.0"?>
-
 <labwc_config>
-    <core>
-    </core>
+  <core>
+  </core>
 
-    <theme>
-    </theme>
+  <theme>
+  </theme>
 
-    <focus>
-        <followMouse>yes</followMouse>
-        <followMouseRequiresMovement>yes</followMouseRequiresMovement>
-        <raiseOnFocus>no</raiseOnFocus>
-    </focus>
+  <focus>
+    <followMouse>yes</followMouse>
+    <followMouseRequiresMovement>yes</followMouseRequiresMovement>
+    <raiseOnFocus>no</raiseOnFocus>
+  </focus>
 
-    <snapping>
-    </snapping>
+  <snapping>
+  </snapping>
 
-    <desktops>
-        <popupTime>1000</popupTime>
-        <names>
-            <name>Default</name>
-        </names>
-    </desktops>
+  <desktops>
+    <popupTime>1000</popupTime>
+    <names>
+      <name>Default</name>
+    </names>
+  </desktops>
 
-    <!-- <margin top="50" /> -->
 
-    <keyboard>
-        <repeatRate>25</repeatRate>
-        <repeatDelay>600</repeatDelay>
-        <keybind key="W-s">
-            <action name="Execute" command="alacritty" />
-        </keybind>
-        <keybind key="A-F4">
-            <action name="Close" />
-        </keybind>
-        <keybind key="W-Tab">
-            <action name="ToggleMaximize" />
-        </keybind>
-        <keybind key="XF86_AudioLowerVolume">
-            <action name="Execute" command="amixer sset Master 5%-" />
-        </keybind>
-        <keybind key="XF86_AudioRaiseVolume">
-            <action name="Execute" command="amixer sset Master 5%+" />
-        </keybind>
-        <keybind key="XF86_AudioMute">
-            <action name="Execute" command="amixer sset Master toggle" />
-        </keybind>
-        <keybind key="XF86_MonBrightnessUp">
-            <action name="Execute" command="brightnessctl set +3%" />
-        </keybind>
-        <keybind key="XF86_MonBrightnessDown">
-            <action name="Execute" command="brightnessctl set 3%-" />
-        </keybind>
-    </keyboard>
+  <keyboard>
+    <repeatRate>25</repeatRate>
+    <repeatDelay>600</repeatDelay>
+    <keybind key="A-Tab">
+      <action name="NextWindow" />
+    </keybind>
+    <keybind key="W-s">
+      <action name="Execute" command="alacritty" />
+    </keybind>
+    <keybind key="W-a">
+      <action name="Execute" command="wofi --show drun" />
+    </keybind>
+    <keybind key="A-F4">
+      <action name="Close" />
+    </keybind>
+    <keybind key="W-Tab">
+      <action name="ToggleMaximize" />
+    </keybind>
+    <keybind key="XF86_AudioLowerVolume">
+      <action name="Execute" command="amixer sset Master 5%-" />
+    </keybind>
+    <keybind key="XF86_AudioRaiseVolume">
+      <action name="Execute" command="amixer sset Master 5%+" />
+    </keybind>
+    <keybind key="XF86_AudioMute">
+      <action name="Execute" command="amixer sset Master toggle" />
+    </keybind>
+    <keybind key="XF86_MonBrightnessUp">
+      <action name="Execute" command="brightnessctl set +3%" />
+    </keybind>
+    <keybind key="XF86_MonBrightnessDown">
+      <action name="Execute" command="brightnessctl set 3%-" />
+    </keybind>
+  </keyboard>
 
-    <mouse>
-        <doubleClickTime>500</doubleClickTime>
-        <scrollFactor>1.0</scrollFactor>
+  <mouse>
+    <doubleClickTime>500</doubleClickTime>
+    <scrollFactor>1.0</scrollFactor>
 
-        <context name="Frame">
-            <mousebind button="W-Left" action="Drag">
-                <action name="Move" />
-            </mousebind>
-            <mousebind button="W-Right" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
+    <context name="Frame">
+      <mousebind button="W-Left" action="Drag">
+        <action name="Move" />
+      </mousebind>
+      <mousebind button="W-Right" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
 
-        <!-- Resize -->
-        <context name="Top">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="Left">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="Right">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="Bottom">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="TRCorner">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="BRCorner">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="TLCorner">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
-        <context name="BLCorner">
-            <mousebind button="Left" action="Drag">
-                <action name="Resize" />
-            </mousebind>
-        </context>
+    <!-- Resize -->
+    <context name="Top">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="Left">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="Right">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="Bottom">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="TRCorner">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="BRCorner">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="TLCorner">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
+    <context name="BLCorner">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+    </context>
 
-        <context name="Title">
-            <mousebind button="Left" action="Drag">
-                <action name="Move" />
-            </mousebind>
-            <mousebind button="Left" action="DoubleClick">
-                <action name="ToggleMaximize" />
-            </mousebind>
-        </context>
+    <context name="Title">
+      <mousebind button="Left" action="Drag">
+        <action name="Move" />
+      </mousebind>
+      <mousebind button="Left" action="DoubleClick">
+        <action name="ToggleMaximize" />
+      </mousebind>
+    </context>
 
-        <context name="Maximize">
-            <mousebind button="Left" action="Click">
-                <action name="ToggleMaximize" />
-            </mousebind>
-        </context>
+    <context name="Maximize">
+      <mousebind button="Left" action="Click">
+        <action name="ToggleMaximize" />
+      </mousebind>
+    </context>
 
-        <context name="WindowMenu">
-            <mousebind button="Left" action="Click">
-                <action name="ShowMenu" menu="client-menu" />
-            </mousebind>
-        </context>
+    <context name="WindowMenu">
+      <mousebind button="Left" action="Click">
+        <action name="ShowMenu" menu="client-menu" />
+      </mousebind>
+    </context>
 
-        <context name="Iconify">
-            <mousebind button="Left" action="Click">
-                <action name="Iconify" />
-            </mousebind>
-        </context>
+    <context name="Iconify">
+      <mousebind button="Left" action="Click">
+        <action name="Iconify" />
+      </mousebind>
+    </context>
 
-        <context name="Close">
-            <mousebind button="Left" action="Click">
-                <action name="Close" />
-            </mousebind>
-        </context>
+    <context name="Close">
+      <mousebind button="Left" action="Click">
+        <action name="Close" />
+      </mousebind>
+    </context>
 
-        <context name="Client">
-            <mousebind button="Left" action="Press">
-                <action name="Focus" />
-                <action name="Raise" />
-            </mousebind>
-        </context>
+    <context name="Client">
+      <mousebind button="Left" action="Press">
+        <action name="Focus" />
+        <action name="Raise" />
+      </mousebind>
+    </context>
 
-        <context name="Root">
-            <mousebind button="Left" action="Press">
-                <action name="ShowMenu" menu="root-menu" />
-            </mousebind>
-        </context>
-    </mouse>
+    <context name="Root">
+      <mousebind button="Left" action="Press">
+        <action name="ShowMenu" menu="root-menu" />
+      </mousebind>
+    </context>
+  </mouse>
 
-    <libinput>
-        <device category="SYNA32A0:00 06CB:CE14 Touchpad">
-            <naturalScroll>yes</naturalScroll>
-            <tapAndDrag>no</tapAndDrag>
-        </device>
-    </libinput>
+  <libinput>
+    <device category="SYNA32A0:00 06CB:CE14 Touchpad">
+      <naturalScroll>yes</naturalScroll>
+      <tapAndDrag>no</tapAndDrag>
+    </device>
+  </libinput>
 </labwc_config>

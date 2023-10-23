@@ -24,6 +24,8 @@ modifiers:
   M:
     - { key: Eisu_toggle, transfer: Super_L }
     - { key: Super_R }
+  MOUSE_LEFT:
+    - { key: mouse:left }
 
 entries:
   - key: Next
@@ -55,6 +57,14 @@ entries:
   - key: o
     modifiers: [VIM]
     on_press: [+Muhenkan]
+
+  - key: mouse:forward
+    modifiers: [MOUSE_LEFT]
+    on_press: [+Control_L, w]
+
+  - key: mouse:backward
+    modifiers: [MOUSE_LEFT]
+    on_press: [+Alt_L, F4]
 
   - gesture: swipe
     fingers: 3

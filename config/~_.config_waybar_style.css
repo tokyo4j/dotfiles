@@ -46,7 +46,15 @@ window#waybar {
   background-color: #2dbc26;
 }
 #custom-code {
-  background-color: #266ebc;
+  background-color: #225fa1;
+}
+
+#taskbar button {
+  background: #676767;
+  border: 1px solid black;
+}
+#taskbar button.active {
+  background: #6a8eba;
 }
 
 #pulseaudio {

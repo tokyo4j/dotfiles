@@ -1,8 +1,9 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 30,
+  "height": 40,
   "spacing": 4,
+  "fixed-center": false,
   "modules-left": [
     "wlr/workspaces",
     "custom/firefox",
@@ -38,12 +39,13 @@
     "on-click": "code"
   },
   "wlr/taskbar": {
-    "format": "{icon}",
+    "format": "{icon}  {title}",
     "tooltip-format": "{title}",
-    "on-click": "activate",
+    "on-click": "minimize-raise",
+    "on-click-right": "minimize",
+    "on-click-middle": "close",
     "icon-size": 32,
-    "icon-theme": "Obsidian",
-    "on-click-right": "minimize"
+    "icon-theme": "Obsidian"
   },
   "pulseaudio": {
     "format": "{volume}% {icon}  {format_source}",
@@ -69,7 +71,7 @@
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "on-click": "alacritty -e sh -c 'sleep 0.5 && nmtui'"
+    "on-click": "alacritty -e sh -c 'sleep 0.1 && nmtui'"
   },
   "battery": {
     "states": {

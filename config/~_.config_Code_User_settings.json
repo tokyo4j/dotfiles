@@ -1,11 +1,11 @@
 {
   "editor.formatOnSave": true,
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.fastScrollSensitivity": 5,
   "editor.fontFamily": "monospace, 'Font Awesome 6 Brands Regular', 'Font Awesome 6 Free Solid', 'Font Awesome 6 Free Regular'",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.inlineSuggest.enabled": true,
+  "window.menuBarVisibility": "hidden",
   "workbench.colorTheme": "Monokai",
   "workbench.colorCustomizations": {
     "[Monokai]": {
@@ -20,44 +20,37 @@
   "terminal.integrated.defaultProfile.linux": "fish",
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
-  "diffEditor.ignoreTrimWhitespace": false,
-
-  "npm.packageManager": "pnpm",
   "svelte.enable-ts-plugin": true,
   "hediet.vscode-drawio.resizeImages": null,
   "hediet.vscode-drawio.theme": "min",
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
   "cscopeCode.auto": false,
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
-  "zig.zigPath": "/usr/bin/zig",
+  "zig.path": "/usr/bin/zig",
   "zig.zls.path": "/usr/bin/zls",
-  "nim.nimprettyIndent": 2,
   "sqltools.autoOpenSessionFiles": false,
   "remote.SSH.useLocalServer": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[blade]": {
-    "editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
-  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[c]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 4
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format"
@@ -79,5 +72,8 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrap": "off"
+  },
+  "[zig]": {
+    "editor.tabSize": 4
   }
 }

@@ -30,10 +30,20 @@ if filereadable('/usr/bin/fish')
     set shell=/usr/bin/fish
 endif
 
+autocmd VimEnter * startinsert
+
 let mapleader=" "
 nnoremap <SPACE> <Nop>
+
 nnoremap <C-Left> b
-nnoremap <C-Right> e<Right>
+inoremap <C-Left> <C-o>b
+nnoremap <C-Right> el
+inoremap <C-Right> <C-o>e<C-o>l
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <C-o>:w<CR>
+nnoremap <C-q> :q<CR>
+inoremap <C-q> <C-o>:q<CR>
+
 nnoremap <Leader>h :tabp<CR>
 nnoremap <Leader>l :tabn<CR>
 nnoremap <Leader>w :w<CR>
