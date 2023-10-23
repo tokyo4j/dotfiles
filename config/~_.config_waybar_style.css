@@ -13,7 +13,6 @@ window#waybar {
   color: #ffffff;
 }
 
-#workspaces button,
 #custom-firefox,
 #custom-thunar,
 #custom-alacritty,
@@ -27,13 +26,6 @@ window#waybar {
   border-radius: 10px;
   margin: 4px 0;
   color: #ffffff;
-}
-
-#workspaces button {
-  background-color: #4d4d4d;
-}
-#workspaces button.active {
-  background-color: #929292;
 }
 
 #custom-firefox {
