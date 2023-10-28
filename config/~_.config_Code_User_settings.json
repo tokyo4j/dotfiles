@@ -18,6 +18,9 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.env.linux": {
+    "EDITOR": "code --wait"
+  },
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,

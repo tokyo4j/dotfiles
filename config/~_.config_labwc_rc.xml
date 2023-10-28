@@ -12,6 +12,7 @@
   </focus>
 
   <snapping>
+    <range>20</range>
   </snapping>
 
   <desktops>
@@ -40,6 +41,18 @@
     <keybind key="W-Tab">
       <action name="ToggleMaximize" />
     </keybind>
+    <keybind key="W-h">
+      <action name="SnapToEdge" direction="left" />
+    </keybind>
+    <keybind key="W-l">
+      <action name="SnapToEdge" direction="right" />
+    </keybind>
+    <keybind key="W-k">
+      <action name="SnapToEdge" direction="up" />
+    </keybind>
+    <keybind key="W-j">
+      <action name="SnapToEdge" direction="down" />
+    </keybind>
     <keybind key="XF86_AudioLowerVolume">
       <action name="Execute" command="amixer sset Master 5%-" />
     </keybind>
@@ -58,7 +71,7 @@
   </keyboard>
 
   <mouse>
-    <doubleClickTime>500</doubleClickTime>
+    <doubleClickTime>200</doubleClickTime>
     <scrollFactor>1.0</scrollFactor>
 
     <context name="Frame">
@@ -113,6 +126,10 @@
     </context>
 
     <context name="Title">
+      <mousebind button="Left" action="Press">
+        <action name="Focus" />
+        <action name="Raise" />
+      </mousebind>
       <mousebind button="Left" action="Drag">
         <action name="Move" />
       </mousebind>

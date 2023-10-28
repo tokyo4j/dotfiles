@@ -6,5 +6,4 @@ if status is-interactive
         rbenv init - fish | source
     end
     set fish_greeting
-    set EDITOR vim
 end

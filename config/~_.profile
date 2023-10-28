@@ -4,6 +4,7 @@ export PATH=$HOME/.nimble/bin:$PATH
 export PATH=$HOME/.rbenv/bin:$PATH
 export PATH="$PNPM_HOME:$PATH"
 export PNPM_HOME="/home/hrak/.local/share/pnpm"
+export EDITOR=vim
 
 export XCURSOR_SIZE=24
 export INPUT_METHOD=fcitx5
