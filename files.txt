@@ -18,7 +18,7 @@
 /etc/greetd/config.toml
 ~/.config/kwalletrc
 ~/.config/kglobalshortcutsrc
-/efi/limine/limine.cfg
+/boot/efi/limine/limine.cfg
 /etc/rydeen/config.yml
 ~/.clang-format
 ~/.config/labwc/rc.xml

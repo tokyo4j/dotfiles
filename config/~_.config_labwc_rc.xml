@@ -68,6 +68,9 @@
     <keybind key="XF86_MonBrightnessDown">
       <action name="Execute" command="brightnessctl set 3%-" />
     </keybind>
+    <keybind key="Print">
+      <action name="Execute" command="grim" />
+    </keybind>
   </keyboard>
 
   <mouse>
