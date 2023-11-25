@@ -27,3 +27,4 @@
 ~/.config/alacritty/alacritty.yml
 /usr/share/libalpm/hooks/linux.hook
 ~/.config/kanshi/config
+~/.local/bin/update-cmap.sh
