@@ -34,8 +34,10 @@
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "zig.path": "/usr/bin/zig",
   "zig.zls.path": "/usr/bin/zls",
+  "zig.initialSetupDone": true,
   "sqltools.autoOpenSessionFiles": false,
   "remote.SSH.useLocalServer": false,
+  "editor.minimap.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

@@ -30,8 +30,6 @@ if filereadable('/usr/bin/fish')
     set shell=/usr/bin/fish
 endif
 
-autocmd VimEnter * startinsert
-
 let mapleader=" "
 nnoremap <SPACE> <Nop>
 
