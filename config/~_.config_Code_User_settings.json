@@ -21,11 +21,14 @@
   "terminal.integrated.env.linux": {
     "EDITOR": "code --wait"
   },
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,
   "hediet.vscode-drawio.resizeImages": null,
   "hediet.vscode-drawio.theme": "min",
+  "github.gitAuthentication": false,
+  "git.terminalAuthentication": false,
   "C_Cpp.default.cStandard": "gnu17",
   "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.autoAddFileAssociations": false,
