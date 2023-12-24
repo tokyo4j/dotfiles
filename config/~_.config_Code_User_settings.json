@@ -22,6 +22,7 @@
     "EDITOR": "code --wait"
   },
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,
