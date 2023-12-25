@@ -96,13 +96,4 @@ entries:
   - gesture: swipe
     fingers: 4
     direction: left
-    repeats: true
-    on_start: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
-    on_reverse: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
-
-  - gesture: swipe
-    fingers: 4
-    direction: right
-    repeats: true
-    on_start: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
-    on_reverse: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
+    on_start: [+F12]

@@ -188,4 +188,11 @@
       <tapAndDrag>no</tapAndDrag>
     </device>
   </libinput>
+
+  <windowSwitcher show="yes" preview="yes" outlines="yes">
+    <fields>
+      <field content="type" width="15%" />
+      <field content="title" width="85%" />
+    </fields>
+  </windowSwitcher>
 </labwc_config>
