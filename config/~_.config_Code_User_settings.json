@@ -34,7 +34,7 @@
   "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.autoAddFileAssociations": false,
   "C_Cpp.default.compilerPath": "/usr/bin/clang",
-  "cscopeCode.auto": false,
+  "cscope-code.auto": false,
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "zig.path": "/usr/bin/zig",
   "zig.zls.path": "/usr/bin/zls",
