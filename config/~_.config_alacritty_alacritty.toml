@@ -1,0 +1,18 @@
+[cursor.style]
+shape = "beam"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[scrolling]
+multiplier = 10
+
+[shell]
+program = "fish"

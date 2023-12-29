@@ -25,7 +25,7 @@
 ~/.config/labwc/menu.xml
 ~/.config/labwc/autostart
 ~/.config/labwc/environment
-~/.config/alacritty/alacritty.yml
+~/.config/alacritty/alacritty.toml
 /usr/share/libalpm/hooks/linux.hook
 ~/.config/kanshi/config
 ~/.local/bin/update-cmap.sh
