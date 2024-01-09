@@ -94,5 +94,9 @@
     "key": "meta+down",
     "command": "editor.action.insertCursorBelow",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.toggleAuxiliaryBar"
   }
 ]

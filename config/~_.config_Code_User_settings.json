@@ -5,7 +5,10 @@
   "editor.fastScrollSensitivity": 5,
   "editor.fontFamily": "monospace, 'Font Awesome 6 Brands Regular', 'Font Awesome 6 Free Solid', 'Font Awesome 6 Free Regular'",
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "hidden",
+  "workbench.startupEditor": "none",
   "workbench.colorTheme": "Monokai",
   "workbench.colorCustomizations": {
     "[Monokai]": {
@@ -22,6 +25,10 @@
     "EDITOR": "code --wait"
   },
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility",
+    "workbench.action.toggleAuxiliaryBar"
+  ],
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
@@ -41,7 +48,6 @@
   "zig.initialSetupDone": true,
   "sqltools.autoOpenSessionFiles": false,
   "remote.SSH.useLocalServer": false,
-  "editor.minimap.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

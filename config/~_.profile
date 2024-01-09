@@ -13,5 +13,3 @@ export QT_IM_MODULE=fcitx5
 export XMODIFIERS=@im=fcitx5
 
 export GDK_BACKEND=wayland
-
-export MOZ_ENABLE_WAYLAND=1
