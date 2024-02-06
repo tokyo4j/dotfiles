@@ -20,7 +20,7 @@
     "command": "cursorMove",
     "when": "editorTextFocus",
     "args": {
-      "to": "wrappedLineStart",
+      "to": "wrappedLineFirstNonWhitespaceCharacter",
       "select": true
     }
   },

@@ -2,3 +2,6 @@ profile {
 	output eDP-1 position 0,1080
 	output DP-1  position 0,0
 }
+profile {
+	output eDP-1 position 0,0
+}

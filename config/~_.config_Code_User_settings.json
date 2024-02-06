@@ -6,6 +6,7 @@
   "editor.fontFamily": "monospace, 'Font Awesome 6 Brands Regular', 'Font Awesome 6 Free Solid', 'Font Awesome 6 Free Regular'",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
   "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "hidden",
   "workbench.startupEditor": "none",
@@ -15,7 +16,9 @@
       "editorInlayHint.foreground": "#868686f0",
       "editorInlayHint.background": "#18181800",
       "editorInlayHint.typeForeground": "#486148f0",
-      "editorInlayHint.parameterForeground": "#486148f0"
+      "editorInlayHint.parameterForeground": "#486148f0",
+      "editorStickyScroll.background": "#4d4d4d",
+      "editorStickyScrollHover.background": "#4d4d4d"
     }
   },
   "terminal.integrated.cursorBlinking": true,
