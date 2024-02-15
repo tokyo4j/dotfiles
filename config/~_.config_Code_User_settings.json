@@ -21,6 +21,7 @@
       "editorStickyScrollHover.background": "#4d4d4d"
     }
   },
+  "extensions.ignoreRecommendations": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.linux": "fish",
