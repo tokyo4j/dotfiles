@@ -3,13 +3,13 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.fastScrollSensitivity": 5,
-  "editor.fontFamily": "monospace, 'Font Awesome 6 Brands Regular', 'Font Awesome 6 Free Solid', 'Font Awesome 6 Free Regular'",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "hidden",
   "workbench.startupEditor": "none",
+  "workbench.localHistory.enabled": false,
   "workbench.colorTheme": "Monokai",
   "workbench.colorCustomizations": {
     "[Monokai]": {
