@@ -22,7 +22,6 @@
     }
   },
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.env.linux": {
@@ -52,6 +51,9 @@
   "zig.initialSetupDone": true,
   "sqltools.autoOpenSessionFiles": false,
   "remote.SSH.useLocalServer": false,
+  "mesonbuild.configureOnOpen": false,
+  "mesonbuild.downloadLanguageServer": false,
+  "mesonbuild.languageServer": null,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

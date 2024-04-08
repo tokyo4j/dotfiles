@@ -7,22 +7,6 @@
   "modules-left": ["wlr/taskbar"],
   "modules-center": [],
   "modules-right": ["pulseaudio", "network", "battery", "clock", "tray"],
-  "custom/firefox": {
-    "format": " \uf269 ", // 
-    "on-click": "firefox-developer-edition"
-  },
-  "custom/thunar": {
-    "format": " \uf07b ", // 
-    "on-click": "thunar"
-  },
-  "custom/alacritty": {
-    "format": "\uf120 ", // 
-    "on-click": "alacritty"
-  },
-  "custom/code": {
-    "format": "\uf121 ", // 
-    "on-click": "code"
-  },
   "wlr/taskbar": {
     "format": "{icon}  {title}",
     "tooltip-format": "{title}",
