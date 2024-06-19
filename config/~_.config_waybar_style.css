@@ -13,10 +13,6 @@ window#waybar {
   color: #ffffff;
 }
 
-#custom-firefox,
-#custom-thunar,
-#custom-alacritty,
-#custom-code,
 #pulseaudio,
 #network,
 #battery,
@@ -26,19 +22,6 @@ window#waybar {
   border-radius: 10px;
   margin: 4px 0;
   color: #ffffff;
-}
-
-#custom-firefox {
-  background-color: #de5732;
-}
-#custom-thunar {
-  background-color: #bcb726;
-}
-#custom-alacritty {
-  background-color: #2dbc26;
-}
-#custom-code {
-  background-color: #225fa1;
 }
 
 #taskbar button {
@@ -83,5 +66,5 @@ window#waybar {
 }
 
 #tray {
-  background-color: #ffffff;
+  background-color: #64727d;
 }

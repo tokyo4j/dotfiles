@@ -1,63 +1,31 @@
 <labwc_config>
   <focus followMouse="yes" followMouseRequiresMovement="yes" raiseOnFocus="no" />
 
-  <snapping range="20" />
+  <snapping range="20" inner.delay.overlay="100" outer.delay.overlay="0" />
 
   <keyboard repeatRate="25" repeatDelay="600">
-    <keybind key="A-Tab">
-      <action name="NextWindow" />
-    </keybind>
-    <keybind key="W-s">
-      <action name="Execute" command="alacritty" />
-    </keybind>
-    <keybind key="W-a">
-      <action name="Execute" command="fuzzel" />
-    </keybind>
-    <keybind key="A-F4">
-      <action name="Close" />
-    </keybind>
-    <keybind key="W-Tab">
-      <action name="ToggleMaximize" />
-    </keybind>
-    <keybind key="W-h">
-      <action name="SnapToEdge" direction="left" />
-    </keybind>
-    <keybind key="W-l">
-      <action name="SnapToEdge" direction="right" />
-    </keybind>
-    <keybind key="W-k">
-      <action name="SnapToEdge" direction="up" />
-    </keybind>
-    <keybind key="W-j">
-      <action name="SnapToEdge" direction="down" />
-    </keybind>
-    <keybind key="XF86_AudioLowerVolume">
-      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -2dB" />
-    </keybind>
-    <keybind key="XF86_AudioRaiseVolume">
-      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +2dB" />
-    </keybind>
-    <keybind key="XF86_AudioMute">
-      <action name="Execute" command="pactl set-sink-mute @DEFAULT_SINK@ toggle" />
-    </keybind>
-    <keybind key="XF86_AudioMicMute">
-      <action name="Execute" command="pactl set-source-mute @DEFAULT_SOURCE@ toggle" />
-    </keybind>
-    <keybind key="XF86_MonBrightnessUp">
-      <action name="Execute" command="brightnessctl set +3%" />
-    </keybind>
-    <keybind key="XF86_MonBrightnessDown">
-      <action name="Execute" command="brightnessctl set 3%-" />
-    </keybind>
-    <keybind key="Print">
-      <action name="Execute" command="grim" />
-    </keybind>
+    <keybind key="W-bracketRight" name.action="ZoomIn" />
+    <keybind key="W-bracketLeft" name.action="ZoomOut" />
+    <keybind key="W-m" name.action="ToggleKeybinds" />
+    <keybind key="W-q" name.action="Close" />
+    <keybind key="A-Tab" name.action="NextWindow" />
+    <keybind key="A-F4" name.action="Close" />
+    <keybind key="W-Tab" name.action="ToggleMaximize" />
+    <keybind key="W-s" name.action="Execute" command.action="alacritty" />
+    <keybind key="W-a" name.action="Execute" command.action="fuzzel" />
+    <keybind key="XF86_AudioLowerVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ -2dB" />
+    <keybind key="XF86_AudioRaiseVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ +2dB" />
+    <keybind key="XF86_AudioMute" name.action="Execute" command.action="pactl set-sink-mute @DEFAULT_SINK@ toggle" />
+    <keybind key="XF86_AudioMicMute" name.action="Execute" command.action="pactl set-source-mute @DEFAULT_SOURCE@ toggle" />
+    <keybind key="XF86_MonBrightnessUp" name.action="Execute" command.action="brightnessctl set +3%" />
+    <keybind key="XF86_MonBrightnessDown" name.action="Execute" command.action="brightnessctl set 3%-" />
+    <keybind key="Print" name.action="Execute" command.action="grim" />
   </keyboard>
 
   <mouse doubleClickTime="200">
     <default />
     <context name="Frame">
-      <mousebind button="W-Left" action="Drag">
+      <mousebind button="W-Left" action="Press">
         <action name="Raise" />
         <action name="Move" />
       </mousebind>

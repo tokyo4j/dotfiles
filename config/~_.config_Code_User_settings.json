@@ -6,6 +6,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
+  "git.confirmSync": false,
   "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "hidden",
   "workbench.startupEditor": "none",
@@ -15,7 +16,7 @@
     "[Monokai]": {
       "editorInlayHint.foreground": "#868686f0",
       "editorInlayHint.background": "#18181800",
-      "editorInlayHint.typeForeground": "#486148f0",
+      "editorInlayHint.typeForeground": "#479691",
       "editorInlayHint.parameterForeground": "#486148f0",
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d"
@@ -28,6 +29,7 @@
     "EDITOR": "code --wait"
   },
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.altClickMovesCursor": false,
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.toggleSidebarVisibility",
     "workbench.action.toggleAuxiliaryBar"
@@ -36,6 +38,7 @@
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,
+  "cSpell.enabled": false,
   "hediet.vscode-drawio.resizeImages": null,
   "hediet.vscode-drawio.theme": "min",
   "github.gitAuthentication": false,
@@ -44,7 +47,13 @@
   "C_Cpp.default.cppStandard": "gnu++17",
   "C_Cpp.autoAddFileAssociations": false,
   "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--function-arg-placeholders=0",
+    "--header-insertion=never"
+  ],
   "cscope-code.auto": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "zig.path": "/usr/bin/zig",
   "zig.zls.path": "/usr/bin/zls",
@@ -97,5 +106,8 @@
   },
   "[zig]": {
     "editor.tabSize": 4
+  },
+  "[glsl]": {
+    "editor.defaultFormatter": "xaver.clang-format"
   }
 }
