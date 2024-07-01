@@ -1,4 +1,5 @@
 <labwc_config>
+  <desktops number="2" />
   <focus followMouse="yes" followMouseRequiresMovement="yes" raiseOnFocus="no" />
 
   <snapping range="20" inner.delay.overlay="100" outer.delay.overlay="0" />

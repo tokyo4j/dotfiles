@@ -5,7 +5,4 @@ nm-applet &
 swaybg -i /boot/efi/limine/arch.jpg &
 /usr/lib/polkit-kde-authentication-agent-1 &
 mako &
-sleep 0.1; wl-gammarelay-rs &
-sleep 0.2; \
-  busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Brightness d 0.8; \
-  busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 3500 &
+sleep 0.1; gammastep -O 3500 -b 0.8 &
