@@ -9,6 +9,8 @@
   "git.confirmSync": false,
   "security.workspace.trust.enabled": false,
   "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
   "workbench.startupEditor": "none",
   "workbench.localHistory.enabled": false,
   "workbench.colorTheme": "Monokai",
@@ -16,10 +18,11 @@
     "[Monokai]": {
       "editorInlayHint.foreground": "#868686f0",
       "editorInlayHint.background": "#18181800",
-      "editorInlayHint.typeForeground": "#479691",
+      "editorInlayHint.typeForeground": "#486148f0",
       "editorInlayHint.parameterForeground": "#486148f0",
       "editorStickyScroll.background": "#4d4d4d",
-      "editorStickyScrollHover.background": "#4d4d4d"
+      "editorStickyScrollHover.background": "#4d4d4d",
+      "tab.activeBackground": "#2d3f59"
     }
   },
   "extensions.ignoreRecommendations": true,
