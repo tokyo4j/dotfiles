@@ -52,6 +52,14 @@ entries:
     modifiers: [VIM]
     on_press: [+Right]
 
+  - key: n
+    modifiers: [VIM]
+    on_press: [+BackSpace]
+
+  - key: m
+    modifiers: [VIM]
+    on_press: [+Delete]
+
   - key: i
     modifiers: [VIM]
     on_press: [+Zenkaku_Hankaku]

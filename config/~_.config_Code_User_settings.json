@@ -61,6 +61,7 @@
   "zig.path": "/usr/bin/zig",
   "zig.zls.path": "/usr/bin/zls",
   "zig.initialSetupDone": true,
+  "zig.zls.enableArgumentPlaceholders": false,
   "sqltools.autoOpenSessionFiles": false,
   "remote.SSH.useLocalServer": false,
   "mesonbuild.configureOnOpen": false,

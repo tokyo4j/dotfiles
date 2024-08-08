@@ -1,16 +1,22 @@
 <labwc_config>
   <desktops number="2" />
+  <placement policy="cascade" />
+  <resize drawContents="no" />
   <focus followMouse="yes" followMouseRequiresMovement="yes" raiseOnFocus="no" />
-
   <snapping range="20" inner.delay.overlay="100" outer.delay.overlay="0" />
+  <theme dropShadows="yes" />
 
   <keyboard repeatRate="25" repeatDelay="600">
     <keybind key="W-bracketRight" name.action="ZoomIn" />
     <keybind key="W-bracketLeft" name.action="ZoomOut" />
+    <keybind key="W-1" name.action="GoToDesktop" to.action="Workspace 1" />
+    <keybind key="W-2" name.action="GoToDesktop" to.action="Workspace 2" />
     <keybind key="W-m" name.action="ToggleKeybinds" />
     <keybind key="W-q" name.action="Close" />
     <keybind key="A-Tab" name.action="NextWindow" />
     <keybind key="A-F4" name.action="Close" />
+    <keybind key="W-e" name.action="Exit" />
+    <keybind key="W-v" name.action="Execute" command.action="sh -c 'cliphist list | fuzzel --dmenu | cliphist decode | wl-copy'" />
     <keybind key="W-Tab" name.action="ToggleMaximize" />
     <keybind key="W-s" name.action="Execute" command.action="alacritty" />
     <keybind key="W-a" name.action="Execute" command.action="fuzzel" />
