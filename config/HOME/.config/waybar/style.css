@@ -1,0 +1,70 @@
+* {
+  font-family: Noto Sans CJK JP, Arial, FontAwesome, sans-serif;
+  font-size: 16px;
+}
+
+#clock {
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+}
+
+window#waybar {
+  background: rgba(21, 22, 30, 0.7);
+  color: #ffffff;
+}
+
+#pulseaudio,
+#network,
+#battery,
+#clock,
+#tray {
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 4px 0;
+  color: #ffffff;
+}
+
+#taskbar button {
+  background: #676767;
+  border: 1px solid black;
+}
+#taskbar button.active {
+  background: #6a8eba;
+}
+
+#pulseaudio {
+  background-color: #f1c40f;
+  color: #000000;
+}
+#pulseaudio.muted {
+  background-color: #90b1b1;
+  color: #2a5c45;
+}
+
+#network {
+  background-color: #2980b9;
+}
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#battery {
+  background-color: #ffffff;
+  color: #000000;
+}
+#battery.charging,
+#battery.plugged {
+  color: #ffffff;
+  background-color: #26a65b;
+}
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+}
+
+#clock {
+  background-color: #64727d;
+}
+
+#tray {
+  background-color: #64727d;
+}

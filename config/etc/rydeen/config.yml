@@ -1,0 +1,107 @@
+general:
+  swipe_threshold: 50
+  pinch_threshold: 0.2
+  key_interval: 0.05
+  key_repeat_delay: 0.5
+  key_repeat_interval: 0.03333
+  shell: sh
+  keyboard:
+    layout: jp
+
+modifiers:
+  VIM:
+    - { key: Muhenkan, transfer: false }
+  S:
+    - { key: Shift_L }
+    - { key: Shift_R }
+  C:
+    - { key: Control_L }
+    - { key: Control_R }
+  A:
+    - { key: Alt_L }
+    - { key: Alt_R }
+  M:
+    - { key: Eisu_toggle, transfer: Super_L }
+    - { key: Super_R }
+  MOUSE_LEFT:
+    - { key: mouse:left }
+
+entries:
+  - key: Home
+    on_press: [+BackSpace]
+
+  - key: Next
+    on_press: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ -2dB
+
+  - key: Prior
+    on_press: sudo -u '#1000' XDG_RUNTIME_DIR=/run/user/1000 pactl set-sink-volume @DEFAULT_SINK@ +2dB
+
+  - key: h
+    modifiers: [VIM]
+    on_press: [+Left]
+
+  - key: j
+    modifiers: [VIM]
+    on_press: [+Down]
+
+  - key: k
+    modifiers: [VIM]
+    on_press: [+Up]
+
+  - key: l
+    modifiers: [VIM]
+    on_press: [+Right]
+
+  - key: n
+    modifiers: [VIM]
+    on_press: [+BackSpace]
+
+  - key: m
+    modifiers: [VIM]
+    on_press: [+Delete]
+
+  - key: i
+    modifiers: [VIM]
+    on_press: [+Zenkaku_Hankaku]
+
+  - key: o
+    modifiers: [VIM]
+    on_press: [+Muhenkan]
+
+  - key: mouse:forward
+    modifiers: [MOUSE_LEFT]
+    on_press: [+Control_L, w]
+
+  - key: mouse:backward
+    modifiers: [MOUSE_LEFT]
+    on_press: [+Alt_L, F4]
+
+  - gesture: swipe
+    fingers: 3
+    direction: up
+    on_start: [+Super_L, Tab]
+
+  - gesture: swipe
+    fingers: 3
+    direction: down
+    on_start: [+Control_L, w]
+
+  - gesture: swipe
+    fingers: 3
+    direction: right
+    on_start: [mouse:backward]
+
+  - gesture: swipe
+    fingers: 3
+    direction: left
+    on_start: [mouse:forward]
+
+  - gesture: swipe
+    fingers: 4
+    direction: down
+    on_start: [+Alt_L, F4]
+
+  - gesture: swipe
+    fingers: 4
+    direction: left
+    on_start: [+F12]

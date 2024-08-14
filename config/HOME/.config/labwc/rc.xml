@@ -1,0 +1,60 @@
+<labwc_config>
+  <desktops number="2" />
+  <placement policy="cascade" />
+  <resize drawContents="no" />
+  <focus followMouse="yes" followMouseRequiresMovement="yes" raiseOnFocus="no" />
+  <snapping range="20" inner.delay.overlay="100" outer.delay.overlay="0" />
+  <theme dropShadows="yes" />
+
+  <keyboard repeatRate="25" repeatDelay="600">
+    <keybind key="W-bracketRight" name.action="ZoomIn" />
+    <keybind key="W-bracketLeft" name.action="ZoomOut" />
+    <keybind key="W-1" name.action="GoToDesktop" to.action="Workspace 1" />
+    <keybind key="W-2" name.action="GoToDesktop" to.action="Workspace 2" />
+    <keybind key="W-m" name.action="ToggleKeybinds" />
+    <keybind key="W-q" name.action="Close" />
+    <keybind key="A-Tab" name.action="NextWindow" />
+    <keybind key="A-F4" name.action="Close" />
+    <keybind key="W-e" name.action="Exit" />
+    <keybind key="W-v" name.action="Execute" command.action="sh -c 'cliphist list | fuzzel --dmenu | cliphist decode | wl-copy'" />
+    <keybind key="W-Tab" name.action="ToggleMaximize" />
+    <keybind key="W-s" name.action="Execute" command.action="foot" />
+    <keybind key="W-a" name.action="Execute" command.action="fuzzel" />
+    <keybind key="XF86_AudioLowerVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ -2dB" />
+    <keybind key="XF86_AudioRaiseVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ +2dB" />
+    <keybind key="XF86_AudioMute" name.action="Execute" command.action="pactl set-sink-mute @DEFAULT_SINK@ toggle" />
+    <keybind key="XF86_AudioMicMute" name.action="Execute" command.action="pactl set-source-mute @DEFAULT_SOURCE@ toggle" />
+    <keybind key="XF86_MonBrightnessUp" name.action="Execute" command.action="brightnessctl set +3%" />
+    <keybind key="XF86_MonBrightnessDown" name.action="Execute" command.action="brightnessctl set 3%-" />
+    <keybind key="Print" name.action="Execute" command.action="grim" />
+  </keyboard>
+
+  <mouse doubleClickTime="200">
+    <default />
+    <context name="Frame">
+      <mousebind button="W-Left" action="Press">
+        <action name="Raise" />
+        <action name="Move" />
+      </mousebind>
+      <mousebind button="W-Right" action="Drag">
+        <action name="Resize" />
+      </mousebind>
+
+      <mousebind button="A-Left" action="Press" />
+      <mousebind button="A-Left" action="Drag" />
+      <mousebind button="A-Right" action="Press" />
+      <mousebind button="A-Right" action="Drag" />
+    </context>
+  </mouse>
+
+  <libinput>
+    <device category="touchpad" naturalScroll="yes" tapAndDrag="no" />
+  </libinput>
+
+  <windowSwitcher>
+    <fields>
+      <field content="type" width="15%" />
+      <field content="title" width="85%" />
+    </fields>
+  </windowSwitcher>
+</labwc_config>

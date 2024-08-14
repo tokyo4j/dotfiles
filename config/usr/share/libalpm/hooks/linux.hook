@@ -1,0 +1,11 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = linux
+Target = *-ucode
+
+[Action]
+Description = Copy kernel, initramdisk and ucode
+When = PostTransaction
+Exec = /usr/bin/sh -c "/usr/bin/cp /boot/vmlinuz-linux /boot/initramfs-linux.img /boot/*-ucode.img /boot/efi/limine/linux"

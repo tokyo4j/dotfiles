@@ -1,0 +1,2 @@
+set history save on
+add-auto-load-safe-path ~/codes/linux

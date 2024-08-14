@@ -1,0 +1,65 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+  "spacing": 4,
+  "fixed-center": false,
+  "modules-left": ["wlr/taskbar"],
+  "modules-center": [],
+  "modules-right": ["pulseaudio", "network", "battery", "clock", "tray"],
+  "wlr/taskbar": {
+    "format": "{icon}  {title}",
+    "tooltip-format": "{title}",
+    "on-click": "minimize-raise",
+    "on-click-right": "minimize",
+    "on-click-middle": "close",
+    "icon-size": 32,
+    "icon-theme": "Obsidian"
+  },
+  "pulseaudio": {
+    "format": "{volume}% {icon}  {format_source}",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "network": {
+    "format-wifi": "{essid} ({signalStrength}%)  ",
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected ⚠",
+    "on-click": "alacritty -e sh -c 'sleep 0.1 && nmtui'"
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{capacity}% {icon} ",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}",
+    "format": "{:%H:%M}"
+  },
+  "tray": {
+    "icon-size": 24,
+    "spacing": 10
+  }
+}
