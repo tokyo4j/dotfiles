@@ -1,0 +1,29 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-up": ["editor::MoveUpByLines", { "lines": 5 }],
+      "ctrl-down": ["editor::MoveDownByLines", { "lines": 5 }],
+      "ctrl-shift-up": ["editor::SelectUpByLines", { "lines": 5 }],
+      "ctrl-shift-down": ["editor::SelectDownByLines", { "lines": 5 }],
+      "super-left": [
+        "editor::MoveToBeginningOfLine",
+        { "stop_at_soft_wraps": true }
+      ],
+      "super-right": [
+        "editor::MoveToEndOfLine",
+        { "stop_at_soft_wraps": true }
+      ],
+      "super-shift-left": [
+        "editor::SelectToBeginningOfLine",
+        { "stop_at_soft_wraps": true }
+      ],
+      "super-shift-right": [
+        "editor::SelectToEndOfLine",
+        { "stop_at_soft_wraps": true }
+      ],
+      "super-up": "editor::AddSelectionAbove",
+      "super-down": "editor::AddSelectionBelow"
+    }
+  }
+]
