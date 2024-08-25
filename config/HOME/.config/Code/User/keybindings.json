@@ -98,5 +98,9 @@
   {
     "key": "ctrl+n",
     "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
   }
 ]
