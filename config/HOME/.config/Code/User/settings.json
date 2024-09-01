@@ -23,7 +23,7 @@
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d",
       "tab.activeBackground": "#2d3f59",
-      "window.activeBorder": "#ff0000"
+      "window.activeBorder": "#ffffff"
     }
   },
   "extensions.ignoreRecommendations": true,
