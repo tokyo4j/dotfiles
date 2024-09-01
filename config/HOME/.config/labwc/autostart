@@ -5,5 +5,5 @@ nm-applet &
 swaybg -i /boot/efi/limine/arch.jpg &
 lxqt-policykit-agent &
 mako &
-sleep 0.1; gammastep -O 3500 -b 0.8 &
+gammastep -O 3500 -b 0.8 &
 wl-paste --watch cliphist store &
