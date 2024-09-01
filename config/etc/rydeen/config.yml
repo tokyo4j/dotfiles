@@ -20,11 +20,9 @@ modifiers:
   A:
     - { key: Alt_L }
     - { key: Alt_R }
-  M:
+  W:
     - { key: Eisu_toggle, transfer: Super_L }
     - { key: Super_R }
-  MOUSE_LEFT:
-    - { key: mouse:left }
 
 entries:
   - key: Home
@@ -68,13 +66,13 @@ entries:
     modifiers: [VIM]
     on_press: [+Muhenkan]
 
-  - key: mouse:forward
-    modifiers: [MOUSE_LEFT]
-    on_press: [+Control_L, w]
+  - key: z
+    modifiers: [W]
+    on_press: [+mouse:left]
 
-  - key: mouse:backward
-    modifiers: [MOUSE_LEFT]
-    on_press: [+Alt_L, F4]
+  - key: x
+    modifiers: [W]
+    on_press: [+mouse:right]
 
   - gesture: swipe
     fingers: 3
