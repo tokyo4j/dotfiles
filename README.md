@@ -1,7 +1,7 @@
 ### Default browser:
 
 ```sh
-xdg-settings set default-web-browser firefoxdeveloperedition.desktop
+xdg-settings set default-web-browser firefox-developer-edition.desktop
 ```
 
 ### GTK:
