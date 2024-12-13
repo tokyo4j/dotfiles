@@ -14,5 +14,5 @@ mods = "Control"
 [scrolling]
 multiplier = 10
 
-[shell]
-program = "fish"
+[terminal]
+shell = "fish"
