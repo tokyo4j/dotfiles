@@ -1,6 +1,5 @@
 <labwc_config>
   <desktops number="2" />
-  <placement policy="cascade" />
   <resize drawContents="no" />
   <focus followMouse="yes" followMouseRequiresMovement="yes" raiseOnFocus="no" />
   <snapping range="20" inner.delay.overlay="100" outer.delay.overlay="0" />
