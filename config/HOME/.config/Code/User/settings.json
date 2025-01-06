@@ -40,7 +40,7 @@
     "workbench.action.toggleSidebarVisibility",
     "workbench.action.toggleAuxiliaryBar"
   ],
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
   "svelte.enable-ts-plugin": true,
