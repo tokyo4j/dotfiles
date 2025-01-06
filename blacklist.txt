@@ -1,3 +1,4 @@
 /etc/keyd/default.conf
 ~/.config/hypr/hyprland.conf
 ~/.config/hypr/hyprpaper.conf
+/boot/efi/limine
