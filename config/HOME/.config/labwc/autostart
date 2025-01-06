@@ -2,7 +2,7 @@ kanshi &
 waybar &
 fcitx5 &
 nm-applet &
-swaybg -i /boot/efi/limine/arch.jpg &
+swaybg -i /usr/share/backgrounds/archlinux/sunset.jpg &
 lxqt-policykit-agent &
 mako &
 wlsunset -t 4000 -T 4001 &
