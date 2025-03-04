@@ -18,7 +18,7 @@
     <keybind key="W-p" name.action="Exit" />
     <keybind key="W-v" name.action="Execute" command.action="sh -c 'cliphist list | fuzzel --dmenu | cliphist decode | wl-copy'" />
     <keybind key="W-Tab" name.action="ToggleMaximize" />
-    <keybind key="W-s" name.action="Execute" command.action="foot" />
+    <keybind key="W-s" name.action="Execute" command.action="alacritty" />
     <keybind key="W-a" name.action="Execute" command.action="fuzzel" />
     <keybind key="XF86_AudioLowerVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ -2dB" />
     <keybind key="XF86_AudioRaiseVolume" name.action="Execute" command.action="pactl set-sink-volume @DEFAULT_SINK@ +2dB" />
