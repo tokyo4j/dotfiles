@@ -2,3 +2,5 @@
 ~/.config/hypr/hyprland.conf
 ~/.config/hypr/hyprpaper.conf
 /boot/efi/limine
+~/.config/Code/User/keybindings.json
+~/.config/Code/User/settings.json
