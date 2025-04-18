@@ -14,6 +14,7 @@
     <keybind key="W-r" name.action="Reconfigure" />
     <keybind key="W-q" name.action="Close" />
     <keybind key="A-Tab" name.action="NextWindow" />
+    <keybind key="A-S-Tab" name.action="PreviousWindow" />
     <keybind key="A-F4" name.action="Close" />
     <keybind key="W-p" name.action="Exit" />
     <keybind key="W-v" name.action="Execute" command.action="sh -c 'cliphist list | fuzzel --dmenu | cliphist decode | wl-copy'" />
