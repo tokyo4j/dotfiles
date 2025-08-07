@@ -8,6 +8,8 @@ function pc
     pkg-config $argv | string trim | string split ' '
 end
 
+set __fish_git_prompt_shorten_branch_len 20
+
 # copied from /usr/share/fish/completions/pkg-config.fish
 complete -f -c pc -l modversion -d 'Print versions of the specified libraries'
 complete -f -c pc -l version -d 'Display the version of pkg-config and quit'
