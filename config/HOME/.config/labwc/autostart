@@ -7,4 +7,8 @@ lxqt-policykit-agent &
 mako &
 wlsunset -t 4000 -T 4001 &
 wl-paste --watch cliphist store &
-slack -u
+pids=($(pidof labwc))
+nr_pids=${#pids[@]}
+if [[ $nr_pids < 2 ]]; then
+	slack -u &
+fi
