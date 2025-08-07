@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.fastScrollSensitivity": 5,
@@ -7,6 +7,7 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "editor.accessibilitySupport": "off",
+	"workbench.editor.empty.hint": "hidden",
   "git.confirmSync": false,
   "git.detectSubmodules": false,
   "git.terminalAuthentication": false,
@@ -46,6 +47,7 @@
     "workbench.action.toggleSidebarVisibility",
     "workbench.action.toggleAuxiliaryBar"
   ],
+	"terminal.integrated.initialHint": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "explorer.sortOrder": "type",
   "window.zoomLevel": 1,
@@ -106,7 +108,8 @@
     "editor.tabSize": 2
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -120,5 +123,8 @@
   },
   "[glsl]": {
     "editor.defaultFormatter": "xaver.clang-format"
-  }
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
 }
