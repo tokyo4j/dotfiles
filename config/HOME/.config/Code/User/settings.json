@@ -9,7 +9,6 @@
   "editor.accessibilitySupport": "off",
 	"workbench.editor.empty.hint": "hidden",
   "git.confirmSync": false,
-  "git.detectSubmodules": false,
   "git.terminalAuthentication": false,
   "github.gitAuthentication": false,
   "githubPullRequests.pullBranch": "never",
@@ -50,6 +49,7 @@
 	"terminal.integrated.initialHint": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "explorer.sortOrder": "type",
+  "explorer.confirmDragAndDrop": false,
   "window.zoomLevel": 1,
   "cSpell.enabled": false,
   "hediet.vscode-drawio.resizeImages": null,
@@ -93,7 +93,8 @@
   },
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format",
-    "editor.tabSize": 4
+    "editor.tabSize": 8,
+    "editor.insertSpaces": false
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",

@@ -46,11 +46,5 @@
     <device category="touchpad" naturalScroll="yes" tapAndDrag="no" />
   </libinput>
 
-  <windowSwitcher>
-    <fields>
-      <field content="type" width="15%" />
-      <field content="title" width="85%" />
-    </fields>
-  </windowSwitcher>
   <magnifier usefilter="no" />
 </labwc_config>

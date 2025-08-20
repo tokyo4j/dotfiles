@@ -8,20 +8,14 @@
       "ctrl-shift-down": ["editor::SelectDownByLines", { "lines": 5 }],
       "super-left": [
         "editor::MoveToBeginningOfLine",
-        { "stop_at_soft_wraps": true }
+        { "stop_at_indent": true }
       ],
-      "super-right": [
-        "editor::MoveToEndOfLine",
-        { "stop_at_soft_wraps": true }
-      ],
+      "super-right": ["editor::MoveToEndOfLine", {}],
       "super-shift-left": [
         "editor::SelectToBeginningOfLine",
-        { "stop_at_soft_wraps": true }
+        { "stop_at_indent": true }
       ],
-      "super-shift-right": [
-        "editor::SelectToEndOfLine",
-        { "stop_at_soft_wraps": true }
-      ],
+      "super-shift-right": ["editor::SelectToEndOfLine", {}],
       "super-up": "editor::AddSelectionAbove",
       "super-down": "editor::AddSelectionBelow"
     }

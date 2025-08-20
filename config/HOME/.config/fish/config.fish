@@ -2,13 +2,16 @@ if status is-interactive
     alias c="clear"
     alias co="exec code"
     set fish_greeting
+		set __fish_git_prompt_shorten_branch_len 20
 end
 
 function pc
     pkg-config $argv | string trim | string split ' '
 end
 
-set __fish_git_prompt_shorten_branch_len 20
+function 0x0st
+    curl -F "file=@$argv[1]" https://0x0.st
+end
 
 # copied from /usr/share/fish/completions/pkg-config.fish
 complete -f -c pc -l modversion -d 'Print versions of the specified libraries'
