@@ -10,7 +10,7 @@ general:
 
 modifiers:
   VIM:
-    - { key: Muhenkan, transfer: false }
+    - { key: Muhenkan, send_key: false }
   S:
     - { key: Shift_L }
     - { key: Shift_R }
@@ -21,10 +21,10 @@ modifiers:
     - { key: Alt_L }
     - { key: Alt_R }
   W:
-    - { key: Eisu_toggle, transfer: Super_L }
+    - { key: Eisu_toggle, send_key: Super_L }
     - { key: Super_R }
 
-entries:
+keybinds:
   - key: Home
     on_press: [+BackSpace]
 
@@ -74,32 +74,33 @@ entries:
     modifiers: [W]
     on_press: [+mouse:right]
 
+gesturebinds:
   - gesture: swipe
     fingers: 3
     direction: up
-    on_start: [+Super_L, Tab]
+    on_forward: [+Super_L, Tab]
 
   - gesture: swipe
     fingers: 3
     direction: down
-    on_start: [+Control_L, w]
+    on_forward: [+Control_L, w]
 
   - gesture: swipe
     fingers: 3
     direction: right
-    on_start: [mouse:backward]
+    on_forward: [mouse:backward]
 
   - gesture: swipe
     fingers: 3
     direction: left
-    on_start: [mouse:forward]
+    on_forward: [mouse:forward]
 
   - gesture: swipe
     fingers: 4
     direction: down
-    on_start: [+Alt_L, F4]
+    on_forward: [+Alt_L, F4]
 
   - gesture: swipe
     fingers: 4
     direction: left
-    on_start: [+F12]
+    on_forward: [+F12]
