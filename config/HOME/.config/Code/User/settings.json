@@ -76,6 +76,9 @@
   "mesonbuild.configureOnOpen": false,
   "mesonbuild.downloadLanguageServer": false,
   "mesonbuild.languageServer": null,
+  "files.associations": {
+    "*.h": "c"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
