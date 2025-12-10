@@ -1,86 +1,46 @@
 {
-  "editor.formatOnSave": false,
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.fastScrollSensitivity": 5,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": true,
-  "editor.accessibilitySupport": "off",
-	"workbench.editor.empty.hint": "hidden",
-  "git.confirmSync": false,
-  "git.terminalAuthentication": false,
-  "github.gitAuthentication": false,
-  "githubPullRequests.pullBranch": "never",
-  "security.workspace.trust.enabled": false,
-  "window.menuBarVisibility": "hidden",
-  "window.titleBarStyle": "custom",
-  "window.experimentalControlOverlay": false,
-  "window.commandCenter": false,
-  "window.title": "${rootName}",
-  "workbench.startupEditor": "none",
-  "workbench.localHistory.enabled": false,
-  "workbench.colorTheme": "Monokai",
-  "workbench.colorCustomizations": {
-    "[Monokai]": {
-      "editorInlayHint.foreground": "#868686f0",
-      "editorInlayHint.background": "#18181800",
-      "editorInlayHint.typeForeground": "#486148f0",
-      "editorInlayHint.parameterForeground": "#486148f0",
-      "editorStickyScroll.background": "#4d4d4d",
-      "editorStickyScrollHover.background": "#4d4d4d",
-      "tab.activeBackground": "#2d3f59",
-      "window.activeBorder": "#ffffff",
-      "window.inactiveBorder": "#ffffff"
-    }
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8
   },
-  "extensions.ignoreRecommendations": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.linux": "fish",
-  "terminal.integrated.env.linux": {
-    "EDITOR": "code --wait"
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.tabSize": 4
   },
-  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-  "terminal.integrated.altClickMovesCursor": false,
-  "terminal.integrated.commandsToSkipShell": [
-    "workbench.action.toggleSidebarVisibility",
-    "workbench.action.toggleAuxiliaryBar"
-  ],
-	"terminal.integrated.initialHint": false,
-  "diffEditor.ignoreTrimWhitespace": true,
-  "explorer.sortOrder": "type",
-  "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 1,
-  "cSpell.enabled": false,
-  "hediet.vscode-drawio.resizeImages": null,
-  "hediet.vscode-drawio.theme": "min",
-  "C_Cpp.default.cStandard": "gnu17",
-  "C_Cpp.default.cppStandard": "gnu++17",
-  "C_Cpp.autoAddFileAssociations": false,
-  "C_Cpp.default.compilerPath": "/usr/bin/clang",
-  "C_Cpp.intelliSenseEngine": "disabled",
-  "clangd.path": "/usr/bin/clangd",
-  "clangd.arguments": [
-    "--function-arg-placeholders=0",
-    "--header-insertion=never"
-  ],
-  "cscope-code.auto": false,
-  "editor.inlayHints.enabled": "offUnlessPressed",
-  "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
-  "zig.path": "/usr/bin/zig",
-  "zig.zls.path": "/usr/bin/zls",
-  "zig.initialSetupDone": true,
-  "zig.zls.enableArgumentPlaceholders": false,
-  "sqltools.autoOpenSessionFiles": false,
-  "remote.SSH.useLocalServer": false,
-  "mesonbuild.configureOnOpen": false,
-  "mesonbuild.downloadLanguageServer": false,
-  "mesonbuild.languageServer": null,
-  "files.associations": {
-    "*.h": "c"
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[glsl]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "off"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.tabSize": 4
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -88,47 +48,87 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "xaver.clang-format",
-    "editor.tabSize": 8,
-    "editor.insertSpaces": false
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format",
-    "editor.tabSize": 4
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.tabSize": 4
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.wordWrap": "off"
-  },
   "[zig]": {
     "editor.tabSize": 4
   },
-  "[glsl]": {
-    "editor.defaultFormatter": "xaver.clang-format"
+  "C_Cpp.autoAddFileAssociations": false,
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "C_Cpp.default.cppStandard": "gnu++17",
+  "C_Cpp.default.cStandard": "gnu17",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--function-arg-placeholders=0",
+    "--header-insertion=never"
+  ],
+  "clangd.path": "/usr/bin/clangd",
+  "cscope-code.auto": false,
+  "cSpell.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.accessibilitySupport": "off",
+  "editor.detectIndentation": false,
+  "editor.fastScrollSensitivity": 5,
+  "editor.formatOnSave": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.h": "c"
   },
-  "[rust]": {
-    "editor.tabSize": 4
+  "git.confirmSync": false,
+  "git.terminalAuthentication": false,
+  "github.gitAuthentication": false,
+  "githubPullRequests.pullBranch": "never",
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "min",
+  "mesonbuild.configureOnOpen": false,
+  "mesonbuild.downloadLanguageServer": false,
+  "mesonbuild.languageServer": null,
+  "remote.SSH.useLocalServer": false,
+  "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
+  "security.workspace.trust.enabled": false,
+  "sqltools.autoOpenSessionFiles": false,
+  "terminal.integrated.altClickMovesCursor": false,
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility",
+    "workbench.action.toggleAuxiliaryBar"
+  ],
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.env.linux": {
+    "EDITOR": "code --wait"
   },
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "window.commandCenter": false,
+  "window.experimentalControlOverlay": false,
+  "window.menuBarVisibility": "hidden",
+  "window.title": "${rootName}",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "editorInlayHint.background": "#18181800",
+      "editorInlayHint.foreground": "#868686f0",
+      "editorInlayHint.parameterForeground": "#486148f0",
+      "editorInlayHint.typeForeground": "#486148f0",
+      "editorStickyScroll.background": "#4d4d4d",
+      "editorStickyScrollHover.background": "#4d4d4d",
+      "tab.activeBackground": "#2d3f59",
+      "window.activeBorder": "#ffffff",
+      "window.inactiveBorder": "#ffffff"
+    }
+  },
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.localHistory.enabled": false,
+  "workbench.startupEditor": "none",
+  "zig.initialSetupDone": true,
+  "zig.path": "/usr/bin/zig",
+  "zig.zls.enableArgumentPlaceholders": false,
+  "zig.zls.path": "/usr/bin/zls",
 }
