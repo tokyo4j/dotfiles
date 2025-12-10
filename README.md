@@ -10,7 +10,8 @@ xdg-settings set default-web-browser firefox-developer-edition.desktop
 gsettings set org.gnome.desktop.interface icon-theme breeze-dark
 gsettings set org.gnome.desktop.interface cursor-theme Breeze_Snow
 gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
-gsettings set org.gnome.desktop.interface font-name sans
+gsettings set org.gnome.desktop.interface font-name 'Noto Sans 11'
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 ```
 
 ### efibootmgr:
