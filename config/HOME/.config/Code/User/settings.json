@@ -6,6 +6,7 @@
   },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",
+    "editor.insertSpaces": false,
     "editor.tabSize": 4
   },
   "[css]": {
@@ -42,11 +43,17 @@
   "[rust]": {
     "editor.tabSize": 4
   },
+  "[shellscript]": {
+    "editor.tabSize": 2
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.tabSize": 2
   },
   "[zig]": {
     "editor.tabSize": 4
@@ -61,12 +68,11 @@
     "--header-insertion=never"
   ],
   "clangd.path": "/usr/bin/clangd",
-  "cscope-code.auto": false,
-  "cSpell.enabled": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
   "editor.detectIndentation": false,
   "editor.fastScrollSensitivity": 5,
+  "editor.fontFamily": "monospace, NotoSansM Nerd Font Mono",
   "editor.formatOnSave": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.minimap.enabled": false,
@@ -82,9 +88,10 @@
   "git.confirmSync": false,
   "git.terminalAuthentication": false,
   "github.gitAuthentication": false,
+  "githubPullRequests.codingAgent.codeLens": false,
   "githubPullRequests.pullBranch": "never",
   "hediet.vscode-drawio.resizeImages": null,
-  "hediet.vscode-drawio.theme": "min",
+  "hediet.vscode-drawio.theme": "kennedy",
   "mesonbuild.configureOnOpen": false,
   "mesonbuild.downloadLanguageServer": false,
   "mesonbuild.languageServer": null,
@@ -104,6 +111,8 @@
   },
   "terminal.integrated.initialHint": false,
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.suggest.enabled": false,
   "window.commandCenter": false,
   "window.experimentalControlOverlay": false,
   "window.menuBarVisibility": "hidden",

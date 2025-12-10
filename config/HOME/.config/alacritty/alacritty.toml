@@ -11,6 +11,11 @@ action = "DecreaseFontSize"
 key = "Minus"
 mods = "Control"
 
+[[keyboard.bindings]]
+key = "K"
+mods = "Control"
+action = "Copy"
+
 [scrolling]
 multiplier = 10
 
