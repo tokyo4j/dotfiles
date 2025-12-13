@@ -27,6 +27,7 @@ window#waybar {
 #taskbar button {
   background: #676767;
   border: 1px solid black;
+  padding: 0 3px;
 }
 #taskbar button.active {
   background: #6a8eba;
