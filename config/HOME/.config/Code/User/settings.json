@@ -68,6 +68,7 @@
     "--header-insertion=never"
   ],
   "clangd.path": "/usr/bin/clangd",
+  "cmake.automaticReconfigure": false,
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.accessibilitySupport": "off",
   "editor.detectIndentation": false,
