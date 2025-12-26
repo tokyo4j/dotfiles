@@ -87,6 +87,7 @@
     "*.h": "c"
   },
   "git.confirmSync": false,
+  "git.autoRepositoryDetection": false,
   "git.terminalAuthentication": false,
   "github.gitAuthentication": false,
   "githubPullRequests.codingAgent.codeLens": false,
@@ -115,7 +116,7 @@
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.suggest.enabled": false,
   "window.commandCenter": false,
-  "window.experimentalControlOverlay": false,
+  "window.controlsStyle": "custom",
   "window.menuBarVisibility": "hidden",
   "window.title": "${rootName}",
   "window.titleBarStyle": "custom",
@@ -129,15 +130,14 @@
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d",
       "tab.activeBackground": "#2d3f59",
-      "window.activeBorder": "#ffffff",
-      "window.inactiveBorder": "#ffffff"
+      "window.activeBorder": "#00ffe1",
+      "window.inactiveBorder": "#aaaaaa"
     }
   },
   "workbench.colorTheme": "Monokai",
   "workbench.editor.empty.hint": "hidden",
   "workbench.localHistory.enabled": false,
   "workbench.startupEditor": "none",
-  "zig.initialSetupDone": true,
   "zig.path": "/usr/bin/zig",
   "zig.zls.enableArgumentPlaceholders": false,
   "zig.zls.path": "/usr/bin/zls",
