@@ -86,8 +86,8 @@
   "files.associations": {
     "*.h": "c"
   },
-  "git.confirmSync": false,
   "git.autoRepositoryDetection": false,
+  "git.confirmSync": false,
   "git.terminalAuthentication": false,
   "github.gitAuthentication": false,
   "githubPullRequests.codingAgent.codeLens": false,
@@ -100,7 +100,6 @@
   "remote.SSH.useLocalServer": false,
   "rust-analyzer.server.path": "/usr/bin/rust-analyzer",
   "security.workspace.trust.enabled": false,
-  "sqltools.autoOpenSessionFiles": false,
   "terminal.integrated.altClickMovesCursor": false,
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.toggleSidebarVisibility",
@@ -116,10 +115,10 @@
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.suggest.enabled": false,
   "window.commandCenter": false,
-  "window.controlsStyle": "custom",
+  "window.controlsStyle": "native",
   "window.menuBarVisibility": "hidden",
   "window.title": "${rootName}",
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   "window.zoomLevel": 1,
   "workbench.colorCustomizations": {
     "[Monokai]": {
@@ -130,12 +129,11 @@
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d",
       "tab.activeBackground": "#2d3f59",
-      "window.activeBorder": "#00ffe1",
-      "window.inactiveBorder": "#aaaaaa"
     }
   },
   "workbench.colorTheme": "Monokai",
   "workbench.editor.empty.hint": "hidden",
+  "workbench.layoutControl.enabled": false,
   "workbench.localHistory.enabled": false,
   "workbench.startupEditor": "none",
   "zig.path": "/usr/bin/zig",
