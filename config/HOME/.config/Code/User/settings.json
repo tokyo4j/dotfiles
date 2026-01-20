@@ -1,37 +1,12 @@
 {
-  "[c]": {
-    "editor.defaultFormatter": "xaver.clang-format",
+  "[c][cpp][glsl]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.insertSpaces": false,
     "editor.tabSize": 8
   },
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format",
-    "editor.insertSpaces": false,
-    "editor.tabSize": 4
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[glsl]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
+  "[css][html][javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.wordWrap": "off"
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -45,12 +20,6 @@
   },
   "[shellscript]": {
     "editor.tabSize": 2
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[xml]": {
     "editor.tabSize": 2
@@ -128,7 +97,7 @@
       "editorInlayHint.typeForeground": "#486148f0",
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d",
-      "tab.activeBackground": "#2d3f59",
+      "tab.activeBackground": "#2d3f59"
     }
   },
   "workbench.colorTheme": "Monokai",
@@ -138,5 +107,5 @@
   "workbench.startupEditor": "none",
   "zig.path": "/usr/bin/zig",
   "zig.zls.enableArgumentPlaceholders": false,
-  "zig.zls.path": "/usr/bin/zls",
+  "zig.zls.path": "/usr/bin/zls"
 }
