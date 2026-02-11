@@ -2,35 +2,35 @@
   "[c][cpp][glsl]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.insertSpaces": false,
-    "editor.tabSize": 8,
+    "editor.tabSize": 8
   },
   "[css][html][javascript][javascriptreact][json][jsonc][markdown][typescript][typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[java]": {
     "editor.defaultFormatter": "redhat.java",
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "[rust]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "[shellscript]": {
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[xml]": {
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[zig]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "C_Cpp.autoAddFileAssociations": false,
   "C_Cpp.default.compilerPath": "/usr/bin/clang",
@@ -39,7 +39,7 @@
   "C_Cpp.intelliSenseEngine": "disabled",
   "clangd.arguments": [
     "--function-arg-placeholders=0",
-    "--header-insertion=never",
+    "--header-insertion=never"
   ],
   "clangd.path": "/usr/bin/clangd",
   "cmake.automaticReconfigure": false,
@@ -58,7 +58,7 @@
   "explorer.sortOrder": "type",
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.h": "c",
+    "*.h": "c"
   },
   "git.autoRepositoryDetection": false,
   "git.confirmSync": false,
@@ -73,8 +73,8 @@
     {
       "default": true,
       "name": "JavaSE-21",
-      "path": "/usr/lib/jvm/java-21-openjdk",
-    },
+      "path": "/usr/lib/jvm/java-21-openjdk"
+    }
   ],
   "mesonbuild.configureOnOpen": false,
   "mesonbuild.downloadLanguageServer": false,
@@ -85,14 +85,20 @@
   "terminal.integrated.altClickMovesCursor": false,
   "terminal.integrated.commandsToSkipShell": [
     "workbench.action.toggleSidebarVisibility",
-    "workbench.action.toggleAuxiliaryBar",
+    "workbench.action.toggleAuxiliaryBar"
   ],
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.defaultProfile.windows": "NuShell",
   "terminal.integrated.env.linux": {
-    "EDITOR": "code --wait",
+    "EDITOR": "code --wait"
   },
   "terminal.integrated.initialHint": false,
+  "terminal.integrated.profiles.windows": {
+    "NuShell": {
+      "path": "nu.exe"
+    }
+  },
   "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.suggest.enabled": false,
@@ -110,8 +116,8 @@
       "editorInlayHint.typeForeground": "#486148f0",
       "editorStickyScroll.background": "#4d4d4d",
       "editorStickyScrollHover.background": "#4d4d4d",
-      "tab.activeBackground": "#2d3f59",
-    },
+      "tab.activeBackground": "#2d3f59"
+    }
   },
   "workbench.colorTheme": "Monokai",
   "workbench.editor.empty.hint": "hidden",
@@ -120,5 +126,5 @@
   "workbench.startupEditor": "none",
   "zig.path": "/usr/bin/zig",
   "zig.zls.enableArgumentPlaceholders": false,
-  "zig.zls.path": "/usr/bin/zls",
+  "zig.zls.path": "/usr/bin/zls"
 }
