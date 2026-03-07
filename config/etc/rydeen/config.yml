@@ -7,6 +7,7 @@ general:
   shell: sh
   keyboard:
     layout: jp
+    options: fkeys:basic_13-24
 
 modifiers:
   VIM:
@@ -65,6 +66,14 @@ keybinds:
   - key: o
     modifiers: [VIM]
     on_press: [+Muhenkan]
+
+  - key: a
+    modifiers: [VIM]
+    on_press: [+F13]
+
+  - key: d
+    modifiers: [VIM]
+    on_press: [+F14]
 
   - key: z
     modifiers: [W]

@@ -90,6 +90,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.defaultProfile.windows": "NuShell",
+  "terminal.integrated.enableKittyKeyboardProtocol": false,
   "terminal.integrated.env.linux": {
     "EDITOR": "code --wait"
   },

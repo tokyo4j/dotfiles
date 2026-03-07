@@ -1,6 +1,6 @@
 [
   {
-    "key": "meta+left",
+    "key": "f13",
     "command": "cursorMove",
     "when": "editorTextFocus",
     "args": {
@@ -8,7 +8,7 @@
     }
   },
   {
-    "key": "meta+right",
+    "key": "f14",
     "command": "cursorMove",
     "when": "editorTextFocus",
     "args": {
@@ -16,7 +16,7 @@
     }
   },
   {
-    "key": "meta+shift+left",
+    "key": "shift+f13",
     "command": "cursorMove",
     "when": "editorTextFocus",
     "args": {
@@ -25,7 +25,7 @@
     }
   },
   {
-    "key": "meta+shift+right",
+    "key": "shift+f14",
     "command": "cursorMove",
     "when": "editorTextFocus",
     "args": {
