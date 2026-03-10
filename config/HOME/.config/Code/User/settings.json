@@ -92,6 +92,7 @@
   "terminal.integrated.defaultProfile.windows": "NuShell",
   "terminal.integrated.enableKittyKeyboardProtocol": false,
   "terminal.integrated.env.linux": {
+    "DEBUGINFOD_URLS": null,
     "EDITOR": "code --wait"
   },
   "terminal.integrated.initialHint": false,

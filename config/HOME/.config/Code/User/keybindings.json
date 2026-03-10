@@ -1,39 +1,5 @@
 [
   {
-    "key": "f13",
-    "command": "cursorMove",
-    "when": "editorTextFocus",
-    "args": {
-      "to": "wrappedLineFirstNonWhitespaceCharacter"
-    }
-  },
-  {
-    "key": "f14",
-    "command": "cursorMove",
-    "when": "editorTextFocus",
-    "args": {
-      "to": "wrappedLineEnd"
-    }
-  },
-  {
-    "key": "shift+f13",
-    "command": "cursorMove",
-    "when": "editorTextFocus",
-    "args": {
-      "to": "wrappedLineFirstNonWhitespaceCharacter",
-      "select": true
-    }
-  },
-  {
-    "key": "shift+f14",
-    "command": "cursorMove",
-    "when": "editorTextFocus",
-    "args": {
-      "to": "wrappedLineEnd",
-      "select": true
-    }
-  },
-  {
     "key": "ctrl+up",
     "command": "cursorMove",
     "when": "editorTextFocus",

@@ -21,6 +21,9 @@ for tmpl_file in glob.glob("config/**/*", recursive=True, include_hidden=True):
     if not os.path.exists(fs_file):
         print_colored(f"Not exist: {fs_file}", RED)
         continue
+    if not os.access(fs_file, os.R_OK):
+        print_colored(f"Not readable: {fs_file}", RED)
+        continue
     if filecmp.cmp(tmpl_file, fs_file):
         print_colored(f"Identical: {fs_file}", GREEN)
         continue
